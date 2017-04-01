@@ -4,10 +4,10 @@
   "description": "blog",
   "main": "index.js",
   "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "npm run build",
-      "build": "webpack -d && webpack-dev-server --content-base src/ --inline --hot --port 8000"
-    },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build",
+    "build": "webpack -d && webpack-dev-server --content-base src/ --inline --hot --port 8000"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zylstraj/SWJReact.git"
@@ -32,5 +32,8 @@
     "react-dom": "^15.4.2",
     "redux": "^3.6.0",
     "webpack": "^2.3.2"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^2.4.2"
   }
 }
