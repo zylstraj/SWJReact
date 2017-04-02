@@ -12,9 +12,9 @@ module.exports = {
     rules: [{
       test: /\.js$/,
       loader: 'babel-loader',
-      options: {presets: ['es2015', 'react', 'stage-1']},
+      options: {presets: ['es2015', 'react']},
       exclude: /node_modules/
-    },{
+    }, {
       test: /\.css$/,
       use: [{
         loader: 'style-loader'
@@ -26,10 +26,8 @@ module.exports = {
           camelCase: true
         }
       }]
-    }]
-  },
-  devServer: {
-    historyApiFallback: true,
-    content: './'
+    }
+
+    ]
   }
-  }
+}
