@@ -1,17 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
+import {createStore, applyMiddleware } from 'redux';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-  render() {
-    return(
-      <div>
-      <h1>Change The Narrative</h1>
-      </div>
-    )
-  }
-}
+import App from './components/app';
 
-ReactDOM.render(<App />, document.getElementById('container'));
+import reducers from './reducers';
+const createStoreWithMiddleware = applyMiddleware()(createStore);
+
+ReactDOM.render(
+  <Provider store={createStoreWithMiddleware(reducers)}>
+    <App />
+  </Provider>
+  , document.getElementById('container'));
