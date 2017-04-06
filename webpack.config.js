@@ -30,6 +30,6 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    content: './'
+    contentBase: './'
   }
-  }
+}
