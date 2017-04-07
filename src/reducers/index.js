@@ -4,7 +4,7 @@ import SelectBlog from './select_blog';
 
 const rootReducer = combineReducers({
   blogs: BlogReducer,
-  selectBlog: SelectBlog
+  blog: SelectBlog
 });
 
 export default rootReducer;
