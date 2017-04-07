@@ -10,8 +10,7 @@ class PostsNew extends React.Component {
         <li key={blog.title}
         onClick={() => this.props.selectBlog(blog)}>
           <h1>{blog.title}</h1>
-          <p>{blog.content}</p>
-          <p>{blog.description}</p>
+          <img src={blog.image} alt={blog.title} />
         </li>
       )
     })
