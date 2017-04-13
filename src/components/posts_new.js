@@ -8,11 +8,12 @@ class PostsNew extends React.Component {
   createList(){
     return this.props.blogs.map((blog) => {
       return(
-        <li key={blog.title}
+        <div key={blog.title}
+        className={styles.school}
         onClick={() => this.props.selectBlog(blog)}>
           <h1>{blog.title}</h1>
           <img src={blog.image} alt={blog.title} />
-        </li>
+        </div>
       )
     })
   }

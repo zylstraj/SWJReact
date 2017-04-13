@@ -1,11 +1,21 @@
 img {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
 }
 ul li {
   list-style-type: none;
 }
-li {
+.school {
   width: 22%;
   float: left;
+}
+
+@media screen and (max-width: 750px) {
+.school {
+  width: 48%;
+}
+img {
+  height: 200px;
+  width: 200px;
+}
 }
