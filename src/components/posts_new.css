@@ -1,0 +1,11 @@
+img {
+  height: 200px;
+  width: 200px;
+}
+ul li {
+  list-style-type: none;
+}
+li {
+  width: 22%;
+  float: left;
+}

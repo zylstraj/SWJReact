@@ -7,8 +7,8 @@ class App extends React.Component {
     return(
       <div>
         <h1>Change The Narrative</h1>
-        <PostsNew />
         <SelectBlog />
+        <PostsNew />
       </div>
     )
   }

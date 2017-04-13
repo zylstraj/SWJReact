@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { selectBlog } from '../actions/index';
+import styles from './posts_new.css';
 
 class PostsNew extends React.Component {
   createList(){

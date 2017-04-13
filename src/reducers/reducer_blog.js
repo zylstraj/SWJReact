@@ -10,13 +10,13 @@ export default function() {
       title: "Ohio State University",
       description: "Shit State",
       content: "Easily the worst school in the Big 10. Universally disliked.",
-      image: "./msu-logo.jpg"
+      image: "./osu-logo.png"
     },
     {
       title: "Michigan State University",
       description: "Michigan State is bad",
       content: "Grand River sucks",
-      image: "./osu-logo.png"
+      image: "./msu-logo.png"
     }
   ]
 }
