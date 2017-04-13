@@ -2,24 +2,24 @@ import React from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
-class SelectBlog extends React.Component {
+class SelectSchool extends React.Component {
   render() {
-    if(!this.props.blog) {
-      return(<div>Click on a Blog</div>);
+    if(!this.props.school) {
+      return(<div>Click on a School</div>);
     }
     return (
       <div>
-        <p>Title: {this.props.blog.title}</p>
-        <h2>Description: {this.props.blog.description}</h2>
-        <h3>Content: {this.props.blog.content}</h3>
+        <p>Title: {this.props.school.title}</p>
+        <h2>Description: {this.props.school.description}</h2>
+        <h3>Content: {this.props.school.content}</h3>
       </div>
     )
   }
 }
 function mapStateToProps(state) {
   return {
-    blog: state.blog
+    school: state.school
   }
 }
 
-export default connect(mapStateToProps)(SelectBlog);
+export default connect(mapStateToProps)(SelectSchool);

@@ -5,13 +5,13 @@ img {
 ul li {
   list-style-type: none;
 }
-.school {
+.schoolName {
   width: 22%;
   float: left;
 }
 
 @media screen and (max-width: 750px) {
-.school {
+.schoolName {
   width: 48%;
 }
 img {

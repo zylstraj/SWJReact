@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
-import BlogReducer from './reducer_blog';
-import SelectBlog from './select_blog';
+import SchoolReducer from './reducer_blog';
+import SelectSchool from './select_blog';
 
 const rootReducer = combineReducers({
-  blogs: BlogReducer,
-  blog: SelectBlog
+  schools: SchoolReducer,
+  school: SelectSchool
 });
 
 export default rootReducer;
