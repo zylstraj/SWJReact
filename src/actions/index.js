@@ -1,9 +1,9 @@
-export const SELECT_BLOG = 'SELECT_BLOG';
+export const SELECT_SCHOOL = 'SELECT_SELECT';
 
-export function selectBlog(blog) {
-  console.log('blog: ', blog.title);
+export function selectSchool(school) {
+  console.log('school: ', school.title);
   return {
-    type: SELECT_BLOG,
-    payload: blog
+    type: SELECT_SCHOOL,
+    payload: school
   }
 }
