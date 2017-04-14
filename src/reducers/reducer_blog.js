@@ -4,19 +4,19 @@ export default function() {
       title: "Michigan",
       description: "University of Michigan has a unique history",
       content: "This is the paragraph about my story and the article ad",
-      image: "./Michigan.jpg"
+      image: "./michigan.jpg"
     },
     {
       title: "Ohio State",
       description: "Shit State",
       content: "Easily the worst school in the Big 10. Universally disliked.",
-      image: "./osu-logo.png"
+      image: "./ohiostate.jpg"
     },
     {
       title: "Michigan State",
       description: "Michigan State is bad",
       content: "Grand River sucks",
-      image: "./michigan-state.png"
+      image: "./michiganstate.gif"
     },
     {
       title: "Northwestern",
