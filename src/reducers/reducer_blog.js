@@ -1,52 +1,88 @@
 export default function() {
   return [
     {
-      title: "University of Michigan",
+      title: "Michigan",
       description: "University of Michigan has a unique history",
       content: "This is the paragraph about my story and the article ad",
-      image: "./umich-logo.jpg"
+      image: "./michigan.jpg"
     },
     {
-      title: "Ohio State University",
+      title: "Ohio State",
       description: "Shit State",
       content: "Easily the worst school in the Big 10. Universally disliked.",
-      image: "./osu-logo.png"
+      image: "./ohiostate.jpg"
     },
     {
-      title: "Michigan State University",
+      title: "Michigan State",
       description: "Michigan State is bad",
       content: "Grand River sucks",
-      image: "./msu-logo.png"
+      image: "./michiganstate.gif"
     },
     {
       title: "Northwestern",
       description: "Chi-town's finest",
       content: "Evanston is a great place to raise a family, attend school, and if you want to party well... Chicago has everything you would ever want",
-      image: "./msu-logo.png"
+      image: "./northwestern.gif"
     },
     {
-      title: "University of Wisconsin",
+      title: "Wisconsin",
       description: "University of Michigan has a unique history",
       content: "This is the paragraph about my story and the article ad",
-      image: "./umich-logo.jpg"
+      image: "./wisconsin.gif"
     },
     {
-      title: "Penn State University",
+      title: "Penn State",
       description: "Shit State",
       content: "Easily the worst school in the Big 10. Universally disliked.",
-      image: "./osu-logo.png"
+      image: "./pennstate.jpg"
     },
     {
-      title: "University of Illinois",
+      title: "Illinois",
       description: "Michigan State is bad",
       content: "Grand River sucks",
-      image: "./msu-logo.png"
+      image: "./illinois.png"
     },
     {
-      title: "University of Minnesota",
+      title: "Minnesota",
       description: "Chi-town's finest",
       content: "Evanston is a great place to raise a family, attend school, and if you want to party well... Chicago has everything you would ever want",
-      image: "./msu-logo.png"
+      image: "./minnesota.jpg"
+    },
+    {
+      title: "Nebraska",
+      description: "University of Michigan has a unique history",
+      content: "This is the paragraph about my story and the article ad",
+      image: "./nebraska.png"
+    },
+    {
+      title: "Iowa",
+      description: "Shit State",
+      content: "Easily the worst school in the Big 10. Universally disliked.",
+      image: "./iowa.jpg"
+    },
+    {
+      title: "Maryland",
+      description: "Michigan State is bad",
+      content: "Grand River sucks",
+      image: "./maryland.jpg"
+    },
+    {
+      title: "Rugters",
+      description: "Chi-town's finest",
+      content: "Evanston is a great place to raise a family, attend school, and if you want to party well... Chicago has everything you would ever want",
+      image: "./rugters.gif"
+    },
+    {
+      title: "Purdue",
+      description: "Michigan State is bad",
+      content: "Grand River sucks",
+      image: "./purdue.jpg"
+    },
+    {
+      title: "Indiana",
+      description: "Chi-town's finest",
+      content: "Evanston is a great place to raise a family, attend school, and if you want to party well... Chicago has everything you would ever want",
+      image: "./indiana.png"
     }
   ]
 }

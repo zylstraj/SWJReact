@@ -6,16 +6,23 @@ ul li {
   list-style-type: none;
 }
 .schoolName {
-  width: 22%;
+  width: 30%;
   float: left;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1050px) {
 .schoolName {
   width: 48%;
 }
 img {
   height: 200px;
   width: 200px;
+}
+}
+@media screen and (max-width: 550px) {
+.schoolName {
+  width: 95%;
+  text-align: center;
+  margin-right: 5%;
 }
 }
