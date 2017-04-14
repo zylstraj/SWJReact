@@ -6,7 +6,7 @@ class App extends React.Component {
   render() {
     return(
       <div>
-        <h1>Change The Narrative</h1>
+        <h1>BigTen Information</h1>
         <SelectSchool />
         <PostsNew />
       </div>
