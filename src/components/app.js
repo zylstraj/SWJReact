@@ -6,7 +6,8 @@ class App extends React.Component {
   render() {
     return(
       <div>
-        <h1>BigTen Information</h1>
+        <img src="./BigTen.png" alt="Big Ten" />
+        <h1>Information</h1>
         <SelectSchool />
         <PostsNew />
       </div>
