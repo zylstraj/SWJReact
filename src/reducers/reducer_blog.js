@@ -6,7 +6,8 @@ export default function() {
       content: "This is the paragraph about my story and the article ad",
       image: "./michigan.jpg",
       enrollment: "44,718",
-      location: "Ann Arbor, MI"
+      location: "Ann Arbor, MI",
+      id: "michigan"
     },
     {
       title: "Ohio State",
@@ -14,7 +15,8 @@ export default function() {
       content: "Easily the worst school in the Big 10. Universally disliked.",
       image: "./ohiostate.jpg",
       enrollment: "66,046",
-      location: "Columbus, OH"
+      location: "Columbus, OH",
+      id: "ohiostate"
     },
     {
       title: "Michigan State",
@@ -22,7 +24,8 @@ export default function() {
       content: "Grand River sucks",
       image: "./michiganstate.gif",
       enrollment: "50,344",
-      location: "East Lansing, MI"
+      location: "East Lansing, MI",
+      id: "michiganstate"
     },
     {
       title: "Northwestern",
@@ -30,7 +33,8 @@ export default function() {
       content: "Evanston is a great place to raise a family, attend school, and if you want to party well... Chicago has everything you would ever want",
       image: "./northwestern.gif",
       enrollment: "21,000",
-      location: "Evanston, IL"
+      location: "Evanston, IL",
+      id: "northwestern"
     },
     {
       title: "Wisconsin",
@@ -38,7 +42,8 @@ export default function() {
       content: "This is the paragraph about my story and the article ad",
       image: "./wisconsin.gif",
       enrollment: "43,338",
-      location: "Madison, WI"
+      location: "Madison, WI",
+      id: "wisconsin"
     },
     {
       title: "Penn State",
@@ -46,7 +51,8 @@ export default function() {
       content: "Easily the worst school in the Big 10. Universally disliked.",
       image: "./pennstate.jpg",
       enrollment: "99,133",
-      location: "State College, PA"
+      location: "State College, PA",
+      id: "pennstate"
     },
     {
       title: "Illinois",
@@ -54,7 +60,8 @@ export default function() {
       content: "Grand River sucks",
       image: "./illinois.png",
       enrollment: "44,087",
-      location: "Champaign, IL"
+      location: "Champaign, IL",
+      id: "illinois"
     },
     {
       title: "Minnesota",
@@ -62,7 +69,8 @@ export default function() {
       content: "Evanston is a great place to raise a family, attend school, and if you want to party well... Chicago has everything you would ever want",
       image: "./minnesota.jpg",
       enrollment: "51,147",
-      location: "Minneapolis, MN"
+      location: "Minneapolis, MN",
+      id: "minnesota"
     },
     {
       title: "Nebraska",
@@ -70,7 +78,8 @@ export default function() {
       content: "This is the paragraph about my story and the article ad",
       image: "./nebraska.png",
       enrollment: "25,897",
-      location: "Lincoln, Nebraska"
+      location: "Lincoln, Nebraska",
+      id: "nebraska"
     },
     {
       title: "Iowa",
@@ -78,7 +87,8 @@ export default function() {
       content: "Easily the worst school in the Big 10. Universally disliked.",
       image: "./iowa.jpg",
       enrollment: "33,334",
-      location: "Iowa City, IA"
+      location: "Iowa City, IA",
+      id: "iowa"
     },
     {
       title: "Maryland",
@@ -86,7 +96,8 @@ export default function() {
       content: "Grand River sucks",
       image: "./maryland.jpg",
       enrollment: "38,140",
-      location: "College Park, MD"
+      location: "College Park, MD",
+      id: "maryland"
     },
     {
       title: "Rugters",
@@ -94,7 +105,8 @@ export default function() {
       content: "Evanston is a great place to raise a family, attend school, and if you want to party well... Chicago has everything you would ever want",
       image: "./rugters.gif",
       enrollment: "66,013",
-      location: "New Brunswick, NJ"
+      location: "New Brunswick, NJ",
+      id: "rugters"
     },
     {
       title: "Purdue",
@@ -102,7 +114,8 @@ export default function() {
       content: "Grand River sucks",
       image: "./purdue.jpg",
       enrollment: "40,451",
-      location: "West Lafetette, IN"
+      location: "West Lafetette, IN",
+      id: "purdue"
     },
     {
       title: "Indiana",
@@ -110,7 +123,8 @@ export default function() {
       content: "Evanston is a great place to raise a family, attend school, and if you want to party well... Chicago has everything you would ever want",
       image: "./indiana.png",
       enrollment: "48,514",
-      location: "Bloomington, IN"
+      location: "Bloomington, IN",
+      id: "indiana"
     }
   ]
 }
