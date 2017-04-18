@@ -4,85 +4,113 @@ export default function() {
       title: "Michigan",
       description: "University of Michigan has a unique history",
       content: "This is the paragraph about my story and the article ad",
-      image: "./michigan.jpg"
+      image: "./michigan.jpg",
+      enrollment: "44,718",
+      location: "Ann Arbor, MI"
     },
     {
       title: "Ohio State",
       description: "Shit State",
       content: "Easily the worst school in the Big 10. Universally disliked.",
-      image: "./ohiostate.jpg"
+      image: "./ohiostate.jpg",
+      enrollment: "66,046",
+      location: "Columbus, OH"
     },
     {
       title: "Michigan State",
       description: "Michigan State is bad",
       content: "Grand River sucks",
-      image: "./michiganstate.gif"
+      image: "./michiganstate.gif",
+      enrollment: "50,344",
+      location: "East Lansing, MI"
     },
     {
       title: "Northwestern",
       description: "Chi-town's finest",
       content: "Evanston is a great place to raise a family, attend school, and if you want to party well... Chicago has everything you would ever want",
-      image: "./northwestern.gif"
+      image: "./northwestern.gif",
+      enrollment: "21,000",
+      location: "Evanston, IL"
     },
     {
       title: "Wisconsin",
       description: "University of Michigan has a unique history",
       content: "This is the paragraph about my story and the article ad",
-      image: "./wisconsin.gif"
+      image: "./wisconsin.gif",
+      enrollment: "43,338",
+      location: "Madison, WI"
     },
     {
       title: "Penn State",
       description: "Shit State",
       content: "Easily the worst school in the Big 10. Universally disliked.",
-      image: "./pennstate.jpg"
+      image: "./pennstate.jpg",
+      enrollment: "99,133",
+      location: "State College, PA"
     },
     {
       title: "Illinois",
       description: "Michigan State is bad",
       content: "Grand River sucks",
-      image: "./illinois.png"
+      image: "./illinois.png",
+      enrollment: "44,087",
+      location: "Champaign, IL"
     },
     {
       title: "Minnesota",
       description: "Chi-town's finest",
       content: "Evanston is a great place to raise a family, attend school, and if you want to party well... Chicago has everything you would ever want",
-      image: "./minnesota.jpg"
+      image: "./minnesota.jpg",
+      enrollment: "51,147",
+      location: "Minneapolis, MN"
     },
     {
       title: "Nebraska",
       description: "University of Michigan has a unique history",
       content: "This is the paragraph about my story and the article ad",
-      image: "./nebraska.png"
+      image: "./nebraska.png",
+      enrollment: "25,897",
+      location: "Lincoln, Nebraska"
     },
     {
       title: "Iowa",
       description: "Shit State",
       content: "Easily the worst school in the Big 10. Universally disliked.",
-      image: "./iowa.jpg"
+      image: "./iowa.jpg",
+      enrollment: "33,334",
+      location: "Iowa City, IA"
     },
     {
       title: "Maryland",
       description: "Michigan State is bad",
       content: "Grand River sucks",
-      image: "./maryland.jpg"
+      image: "./maryland.jpg",
+      enrollment: "38,140",
+      location: "College Park, MD"
     },
     {
       title: "Rugters",
       description: "Chi-town's finest",
       content: "Evanston is a great place to raise a family, attend school, and if you want to party well... Chicago has everything you would ever want",
-      image: "./rugters.gif"
+      image: "./rugters.gif",
+      enrollment: "66,013",
+      location: "New Brunswick, NJ"
     },
     {
       title: "Purdue",
       description: "Michigan State is bad",
       content: "Grand River sucks",
-      image: "./purdue.jpg"
+      image: "./purdue.jpg",
+      enrollment: "40,451",
+      location: "West Lafetette, IN"
     },
     {
       title: "Indiana",
       description: "Chi-town's finest",
       content: "Evanston is a great place to raise a family, attend school, and if you want to party well... Chicago has everything you would ever want",
-      image: "./indiana.png"
+      image: "./indiana.png",
+      enrollment: "48,514",
+      location: "Bloomington, IN"
     }
   ]
 }

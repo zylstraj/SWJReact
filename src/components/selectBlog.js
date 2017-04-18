@@ -9,9 +9,12 @@ class SelectSchool extends React.Component {
     }
     return (
       <div>
-        <p>Title: {this.props.school.title}</p>
+        <p>{this.props.school.title}</p>
+        <h2>Location: {this.props.school.location}</h2>
+        <img src={this.props.school.image} alt={this.props.school.title} />
         <h2>Description: {this.props.school.description}</h2>
         <h3>Content: {this.props.school.content}</h3>
+        <h3>Total Enrollment: {this.props.school.enrollment}</h3>
       </div>
     )
   }
