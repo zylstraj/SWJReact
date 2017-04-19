@@ -4,12 +4,17 @@ import { bindActionCreators } from 'redux';
 import { selectSchool } from '../actions/index';
 import styles from './posts_new.css';
 const NavLink = require('react-router-dom').NavLink;
+const ReactRouter = require('react-router-dom');
+const Router = ReactRouter.BrowserRouter;
+const Route = ReactRouter.Route;
+import SelectSchool from './selectSchool';
 
-class PostsNew extends React.Component {
+class SchoolList extends React.Component {
   createList(){
     return this.props.schools.map((school) => {
       return(
-        <NavLink to={school.id} >
+
+        <NavLink to={school.id}>
         <div key={school.title}
         className={styles.schoolName}
         onClick={() => this.props.selectSchool(school)}>
@@ -39,4 +44,4 @@ function mapStateToProps(state) {
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(PostsNew);
+export default connect(mapStateToProps, mapDispatchToProps)(SchoolList);
