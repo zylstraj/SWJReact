@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { selectSchool } from '../actions/index';
-import styles from './posts_new.css';
+import styles from './SchoolList.css';
 const NavLink = require('react-router-dom').NavLink;
 const ReactRouter = require('react-router-dom');
 const Router = ReactRouter.BrowserRouter;
