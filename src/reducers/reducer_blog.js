@@ -100,13 +100,13 @@ export default function() {
       id: "maryland"
     },
     {
-      title: "Rugters",
+      title: "Rutgers",
       description: "Chi-town's finest",
       content: "Evanston is a great place to raise a family, attend school, and if you want to party well... Chicago has everything you would ever want",
-      image: "./rugters.gif",
+      image: "./rutgers.gif",
       enrollment: "66,013",
       location: "New Brunswick, NJ",
-      id: "rugters"
+      id: "rutgers"
     },
     {
       title: "Purdue",
