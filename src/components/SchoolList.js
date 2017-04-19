@@ -13,8 +13,6 @@ class SchoolList extends React.Component {
   createList(){
     return this.props.schools.map((school) => {
       return(
-
-        <NavLink to={school.id}>
         <div key={school.title}
         className={styles.schoolName}
         onClick={() => this.props.selectSchool(school)}>
@@ -22,7 +20,6 @@ class SchoolList extends React.Component {
           <h1>{school.title}</h1>
           <img src={school.image} alt={school.title} />
         </div>
-        </NavLink>
       )
     })
   }
