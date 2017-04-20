@@ -3,12 +3,15 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
 class SelectSchool extends React.Component {
+  componentWillMount() {
+
+  }
   render() {
     if(!this.props.school) {
       return(<div>Click on a School</div>);
     }
     return (
-      <div>
+      <div className="Top">
         <p>{this.props.school.title}</p>
         <h2>Location: {this.props.school.location}</h2>
         <img src={this.props.school.image} alt={this.props.school.title} />
