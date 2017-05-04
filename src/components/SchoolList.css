@@ -9,6 +9,9 @@ ul li {
   width: 30%;
   float: left;
 }
+.schoolName:hover {
+  opacity: .3;
+}
 
 @media screen and (max-width: 1050px) {
 .schoolName {
