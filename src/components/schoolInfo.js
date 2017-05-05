@@ -2,13 +2,13 @@ import React from 'react';
 
 class SchoolInfo extends React.Component {
 
-  render() {
+render() {
   return (
     <div>
-      <h1>Go Blue</h1>
+      <h1>Shit</h1>
       <p>Fun times here</p>
       <div>
-      Best School
+      <p>Best School</p>
       </div>
     </div>
   )
