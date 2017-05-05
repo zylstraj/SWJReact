@@ -3,10 +3,6 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { selectSchool } from '../actions/index';
 import styles from './SchoolList.css';
-const NavLink = require('react-router-dom').NavLink;
-const ReactRouter = require('react-router-dom');
-const Router = ReactRouter.BrowserRouter;
-const Route = ReactRouter.Route;
 import SelectSchool from './selectSchool';
 
 class SchoolList extends React.Component {
@@ -48,7 +44,6 @@ create2List() {
   return this.state.school.map((school) => {
     return(
       <div>
-
       <h1>{school.title}</h1>
       <img src={school.image} alt={school.title} />
       </div>
@@ -59,14 +54,14 @@ create2List() {
   createList(){
     return this.props.schools.map((school) => {
       return(
-        <NavLink to={school.title}>
+        <Link to={school.title}>
         <div key={school.title}
         className={styles.schoolName}
         onClick={() => this.props.selectSchool(school)}>
           <h1>{school.title}</h1>
           <img src={school.image} alt={school.title} />
         </div>
-        </NavLink>
+        </Link>
       )
     })
   }

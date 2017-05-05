@@ -1,24 +1,20 @@
 import React from 'react';
-import SchoolList from './SchoolList';
-import SelectSchool from './selectSchool';
-const ReactRouter = require('react-router-dom');
-const Router = ReactRouter.BrowserRouter;
-const Route = ReactRouter.Route;
+import {Switch, Route, Link} from 'react-router-dom';
 import Practice from './Practice';
+import SchoolInfo from './schoolInfo';
 
 class App extends React.Component {
   render() {
     return(
-      <Router>
         <div>
         <img src="./BigTen.png" alt="Big Ten" />
         <h1>Information</h1>
-        // <SelectSchool />
-        <Route path="/" component={SchoolList} />
-        <Route path="/Michigan" component={SelectSchool} />
+        <Switch>
+        <Route path="/" component={Practice} />
+        <Route path="/Michigan" component={SchoolInfo} />
         <Route path="/fun" component={Practice} />
+        </Switch>
         </div>
-      </Router>
     )
   }
 }
