@@ -1,9 +1,7 @@
 import React from 'react';
 import {Switch, Route, Link} from 'react-router-dom';
-import Practice from './Practice';
-import SchoolInfo from './schoolInfo';
 
-class App extends React.Component {
+class Practice extends React.Component {
   constructor(props){
     super(props);
     this.state = {
@@ -18,7 +16,7 @@ class App extends React.Component {
         id: "michigan"
       },
       {
-        title: "OhioState",
+        title: "Ohio State",
         description: "Shit State",
         content: "Easily the worst school in the Big 10. Universally disliked.",
         image: "./ohiostate.jpg",
@@ -27,7 +25,7 @@ class App extends React.Component {
         id: "ohiostate"
       },
       {
-        title: "MichiganState",
+        title: "Michigan State",
         description: "Michigan State is bad",
         content: "Grand River sucks",
         image: "./michiganstate.gif",
@@ -38,21 +36,29 @@ class App extends React.Component {
     ]
   }
 }
-  render() {
+create2List() {
+  return this.state.school.map((school) => {
     return(
-        <div>
-        <img src="./BigTen.png" alt="Big Ten" />
-        <h1>Information</h1>
-        <Switch>
-        <Route exact path='/' component={Practice} />
-        <Route path='/Michigan' component={SchoolInfo} />
-        <Route path='/OhioState' component={SchoolInfo} />
-        <Route path='/MichiganState' component={SchoolInfo} />
-        <Route path='/fun' component={Practice} />
-        </Switch>
-        </div>
+      <div>
+      <Link to={school.title}>
+      <h1>{school.title}</h1>
+      <img src={school.image} alt={school.title} />
+      </Link>
+      </div>
     )
-  }
+  })
+}
+  render() {
+  return (
+    <div>
+      <h1>Go Blue</h1>
+      <p>Fun times here</p>
+      <div>
+      {this.create2List()}
+      </div>
+    </div>
+  )
+}
 }
 
-export default App;
+export default Practice;
