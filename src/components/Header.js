@@ -157,8 +157,6 @@ render() {
     // console.log(extraProps);
   return(
       <div>
-      <img src="./BigTen.png" alt="Big Ten" />
-      <h1>Schools</h1>
       <Switch>
       <Route exact path='/' render={mySchools} />
 )}/>

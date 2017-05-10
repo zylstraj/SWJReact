@@ -29,6 +29,38 @@ constructor(props){
       this.state = this.props.specific[5];
       console.log(this.props.specific[5]);
     }
+    if(this.props.location.pathname == "/illinois") {
+      this.state = this.props.specific[6];
+      console.log(this.props.specific[6]);
+    }
+    if(this.props.location.pathname == "/minnesota") {
+      this.state = this.props.specific[7];
+      console.log(this.props.specific[7]);
+    }
+    if(this.props.location.pathname == "/nebraska") {
+      this.state = this.props.specific[8];
+      console.log(this.props.specific[8]);
+    }
+    if(this.props.location.pathname == "/iowa") {
+      this.state = this.props.specific[9];
+      console.log(this.props.specific[9]);
+    }
+    if(this.props.location.pathname == "/maryland") {
+      this.state = this.props.specific[10];
+      console.log(this.props.specific[10]);
+    }
+    if(this.props.location.pathname == "/rutgers") {
+      this.state = this.props.specific[11];
+      console.log(this.props.specific[11]);
+    }
+    if(this.props.location.pathname == "/purdue") {
+      this.state = this.props.specific[12];
+      console.log(this.props.specific[12]);
+    }
+    if(this.props.location.pathname == "/indiana") {
+      this.state = this.props.specific[13];
+      console.log(this.props.specific[13]);
+    }
   //   const goodTimes = this.props.specific;
   //   const variableTimes = this.props.location.pathname;
   //   console.log(goodTimes);
@@ -59,12 +91,15 @@ constructor(props){
 render() {
   return (
     <div>
-      <h1>{this.props.specific.title}</h1>
-      <p>Fun times here</p>
-      <p>{this.state.title}</p>
+    <img src={this.state.image} alt={this.state.id} />
+      <h1>{this.state.title}</h1>
+      <h2>{this.state.description}</h2>
+      <p>{this.state.content}</p>
       <div>
-      <p>Best School</p>
-      </div>
+      <h1>School Information</h1>
+      <p>Location: {this.state.location}</p>
+      <p>Enrollment: {this.state.enrollment}</p>
+    </div>
     </div>
   )
   }

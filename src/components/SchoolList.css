@@ -1,6 +1,6 @@
 img {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
 }
 ul li {
   list-style-type: none;
@@ -8,6 +8,7 @@ ul li {
 .schoolName {
   width: 30%;
   float: left;
+  text-align: center;
 }
 .schoolName:hover {
   opacity: .3;
