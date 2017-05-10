@@ -18,7 +18,7 @@ constructor(props){
       id: "michigan"
     },
     {
-      title: "OhioState",
+      title: "Ohio State",
       description: "Shit State",
       content: "Easily the worst school in the Big 10. Universally disliked.",
       image: "./ohiostate.jpg",
@@ -27,7 +27,7 @@ constructor(props){
       id: "ohiostate"
     },
     {
-      title: "MichiganState",
+      title: "Michigan State",
       description: "Michigan State is bad",
       content: "Grand River sucks",
       image: "./michiganstate.gif",
@@ -39,22 +39,33 @@ constructor(props){
 }
 }
 render() {
-  console.log(this.state.school)
+  const mySchools = (props) => {
+    return (
+      <Practice school = {this.state.school}
+      {...props}
+      />
+    );
+  }
+  const specificSchool = (props) => {
+    return (
+      <SchoolInfo specific= {this.state.school}
+      {...props}
+      />
+    );
+  }
+  // console.log(this.state.school)
     const extraProps = { school: [this.state.school] }
-    console.log(extraProps);
+    // console.log(extraProps);
   return(
       <div>
       <img src="./BigTen.png" alt="Big Ten" />
-      <h1>Information</h1>
+      <h1>Schools</h1>
       <Switch>
-      // <Route exact path='/' component={Practice} />
-      <Route exact path='/' render={(props) => (
-  <Practice {...props} data={extraProps} />
+      <Route exact path='/' render={mySchools} />
 )}/>
-
-      <Route path='/Michigan' component={SchoolInfo} />
-      <Route path='/OhioState' component={SchoolInfo} />
-      <Route path='/MichiganState' component={SchoolInfo} />
+      <Route path={this.state.school.id} render={specificSchool} />
+      // <Route path='/OhioState' component={SchoolInfo} />
+      // <Route path='/MichiganState' component={SchoolInfo} />
       <Route path='/fun' component={Practice} />
       </Switch>
       </div>
