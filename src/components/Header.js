@@ -15,7 +15,9 @@ constructor(props){
       image: "./michigan.jpg",
       enrollment: "44,718",
       location: "Ann Arbor, MI",
-      id: "michigan"
+      id: "michigan",
+      latitude: "42.2808",
+      longitude: "-83.7430"
     },
     {
       title: "Ohio State",
@@ -24,7 +26,9 @@ constructor(props){
       image: "./ohiostate.jpg",
       enrollment: "66,046",
       location: "Columbus, OH",
-      id: "ohiostate"
+      id: "ohiostate",
+      latitude: "39.999387",
+      longitude: "-83.02271"
     },
     {
       title: "Michigan State",
@@ -33,7 +37,9 @@ constructor(props){
       image: "./michiganstate.gif",
       enrollment: "50,344",
       location: "East Lansing, MI",
-      id: "michiganstate"
+      id: "michiganstate",
+      latitude: "42.2808",
+      longitude: "-83.7430"
     },
     {
       title: "Northwestern",
@@ -42,7 +48,9 @@ constructor(props){
       image: "./northwestern.gif",
       enrollment: "21,000",
       location: "Evanston, IL",
-      id: "northwestern"
+      id: "northwestern",
+      latitude: "42.2808",
+      longitude: "-83.7430"
     },
     {
       title: "Wisconsin",
@@ -51,7 +59,9 @@ constructor(props){
       image: "./wisconsin.gif",
       enrollment: "43,338",
       location: "Madison, WI",
-      id: "wisconsin"
+      id: "wisconsin",
+      latitude: "42.2808",
+      longitude: "-83.7430"
     },
     {
       title: "Penn State",
@@ -60,7 +70,9 @@ constructor(props){
       image: "./pennstate.jpg",
       enrollment: "99,133",
       location: "State College, PA",
-      id: "pennstate"
+      id: "pennstate",
+      latitude: "42.2808",
+      longitude: "-83.7430"
     },
     {
       title: "Illinois",
@@ -69,7 +81,9 @@ constructor(props){
       image: "./illinois.png",
       enrollment: "44,087",
       location: "Champaign, IL",
-      id: "illinois"
+      id: "illinois",
+      latitude: "42.2808",
+      longitude: "-83.7430"
     },
     {
       title: "Minnesota",
@@ -78,7 +92,9 @@ constructor(props){
       image: "./minnesota.jpg",
       enrollment: "51,147",
       location: "Minneapolis, MN",
-      id: "minnesota"
+      id: "minnesota",
+      latitude: "42.2808",
+      longitude: "-83.7430"
     },
     {
       title: "Nebraska",
@@ -87,7 +103,9 @@ constructor(props){
       image: "./nebraska.png",
       enrollment: "25,897",
       location: "Lincoln, Nebraska",
-      id: "nebraska"
+      id: "nebraska",
+      latitude: "42.2808",
+      longitude: "-83.7430"
     },
     {
       title: "Iowa",
@@ -96,7 +114,9 @@ constructor(props){
       image: "./iowa.jpg",
       enrollment: "33,334",
       location: "Iowa City, IA",
-      id: "iowa"
+      id: "iowa",
+      latitude: "42.2808",
+      longitude: "-83.7430"
     },
     {
       title: "Maryland",
@@ -105,7 +125,9 @@ constructor(props){
       image: "./maryland.jpg",
       enrollment: "38,140",
       location: "College Park, MD",
-      id: "maryland"
+      id: "maryland",
+      latitude: "42.2808",
+      longitude: "-83.7430"
     },
     {
       title: "Rutgers",
@@ -114,7 +136,9 @@ constructor(props){
       image: "./rutgers.gif",
       enrollment: "66,013",
       location: "New Brunswick, NJ",
-      id: "rutgers"
+      id: "rutgers",
+      latitude: "42.2808",
+      longitude: "-83.7430"
     },
     {
       title: "Purdue",
@@ -123,7 +147,9 @@ constructor(props){
       image: "./purdue.jpg",
       enrollment: "40,451",
       location: "West Lafetette, IN",
-      id: "purdue"
+      id: "purdue",
+      latitude: "42.2808",
+      longitude: "-83.7430"
     },
     {
       title: "Indiana",
@@ -132,7 +158,9 @@ constructor(props){
       image: "./indiana.png",
       enrollment: "48,514",
       location: "Bloomington, IN",
-      id: "indiana"
+      id: "indiana",
+      latitude: "42.2808",
+      longitude: "-83.7430"
     }
   ]
 }

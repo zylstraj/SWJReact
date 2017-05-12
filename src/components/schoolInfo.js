@@ -1,6 +1,6 @@
 import React from 'react';
 import Map from './Map';
-import styles from 'SchoolList.css';
+import styles from './SchoolList.css';
 
 class SchoolInfo extends React.Component {
 
@@ -90,6 +90,16 @@ constructor(props){
     //   this.state = this.props.specific;
     // }
   }
+  componentDidMount() {
+    console.log(google.maps);
+    new google.maps.Map(this.ref.map, {
+      zoom: 12,
+      center: {
+        lat: this.props.location.latitude,
+        lng: this.props.location.longitude
+      }
+    });
+  }
 render() {
   return (
     <div>
@@ -102,7 +112,7 @@ render() {
       <p>Location: {this.state.location}</p>
       <p>Enrollment: {this.state.enrollment}</p>
       <div className={styles.googleDiv}>
-        <Map />
+        <Map location={this.state} />
       </div>
 
     </div>
