@@ -13,7 +13,11 @@ ul li {
 .schoolName:hover {
   opacity: .3;
 }
-
+.googleDiv {
+  height: 600px;
+  width: 300px;
+  background-color: red;
+}
 @media screen and (max-width: 1050px) {
 .schoolName {
   width: 48%;

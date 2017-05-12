@@ -1,4 +1,6 @@
 import React from 'react';
+import Map from './Map';
+import styles from 'SchoolList.css';
 
 class SchoolInfo extends React.Component {
 
@@ -99,6 +101,10 @@ render() {
       <h1>School Information</h1>
       <p>Location: {this.state.location}</p>
       <p>Enrollment: {this.state.enrollment}</p>
+      <div className={styles.googleDiv}>
+        <Map />
+      </div>
+
     </div>
     </div>
   )
