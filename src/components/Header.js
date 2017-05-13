@@ -2,7 +2,7 @@ import React from 'react';
 import {Switch, Route, Link} from 'react-router-dom';
 import Practice from './Practice';
 import SchoolInfo from './schoolInfo';
-
+import GoogleMaps from './Map';
 class Header extends React.Component {
 constructor(props){
   super(props);
@@ -180,6 +180,7 @@ render() {
       />
     );
   }
+
   // console.log(this.state.school)
     const extraProps = { school: [this.state.school] }
     // console.log(extraProps);

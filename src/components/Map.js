@@ -9,28 +9,44 @@ import styles from './SchoolList.css';
 //   defaultCenter={{ lat: 42.2808, lng: -83.7430 }}
 // />
 // ));
-class Map extends React.Component {
+const ARC_DE_TRIOMPHE_POSITION = {
+  lat: 48.873947,
+  lng: 2.295038
+};
+class GoogleMaps extends React.Component {
   constructor(props){
       super(props);
       console.log(props);
-      console.log(this.props.location.latitude)
+      this.panToArcDeTriomphe = this.panToArcDeTriomphe.bind(this);
+      // console.log(this.props.location.latitude)
   }
+  // shouldComponentUpdate() {
+  //   return false;
+  // }
+  panToArcDeTriomphe() {
+    console.log(this)
+    this.map.panTo(ARC_DE_TRIOMPHE_POSITION);
+  }
+  // componentWillReceiveProps(nextProps) {
+  //   console.log(nextProps.lat)
+  //   console.log(nextProps.lng)
+  //   this.map.panTo({ lat: nextProps.lat, lng: nextProps.lng});
+  // }
   componentDidMount() {
     console.log(google.maps);
     new google.maps.Map(this.ref.map, {
       zoom: 12,
       center: {
-        lat: this.props.location.latitude,
-        lng: this.props.location.longitude
+        lat: this.props.lat,
+        lng: this.props.lng
       }
     });
   }
   render() {
     return (
-      <div ref="map" className={styles.googleDiv}>
-      </div>
-    )
+      <div id="map" ref="map" />
+    );
   }
   }
 
-export default Map;
+export default GoogleMaps;
