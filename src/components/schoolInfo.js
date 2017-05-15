@@ -1,6 +1,6 @@
 import React from 'react';
-import Map from './Map';
-import styles from 'SchoolList.css';
+import GoogleMaps from './Map';
+import styles from './SchoolList.css';
 
 class SchoolInfo extends React.Component {
 
@@ -90,6 +90,7 @@ constructor(props){
     //   this.state = this.props.specific;
     // }
   }
+
 render() {
   return (
     <div>
@@ -102,7 +103,7 @@ render() {
       <p>Location: {this.state.location}</p>
       <p>Enrollment: {this.state.enrollment}</p>
       <div className={styles.googleDiv}>
-        <Map />
+        <GoogleMaps lat={42.2808} lng={-83.7430} />
       </div>
 
     </div>

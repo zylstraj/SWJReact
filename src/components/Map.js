@@ -1,10 +1,52 @@
 import React from 'react';
+import styles from './SchoolList.css';
+// import { withGoogleMap, Loader, GoogleMap, Marker } from 'react-google-maps';
 
-class Map extends React.Component {
+// console.log(withGoogleMap)
+// const SimpleMapExampleGoogleMap = withGoogleMap(props => (
+// <GoogleMap
+//   defaultZoom={13}
+//   defaultCenter={{ lat: 42.2808, lng: -83.7430 }}
+// />
+// ));
+const ARC_DE_TRIOMPHE_POSITION = {
+  lat: 48.873947,
+  lng: 2.295038
+};
+class GoogleMaps extends React.Component {
+  constructor(props){
+      super(props);
+      console.log(props);
+      this.panToArcDeTriomphe = this.panToArcDeTriomphe.bind(this);
+      // console.log(this.props.location.latitude)
+  }
+  // shouldComponentUpdate() {
+  //   return false;
+  // }
+  panToArcDeTriomphe() {
+    console.log(this)
+    this.map.panTo(ARC_DE_TRIOMPHE_POSITION);
+  }
+  // componentWillReceiveProps(nextProps) {
+  //   console.log(nextProps.lat)
+  //   console.log(nextProps.lng)
+  //   this.map.panTo({ lat: nextProps.lat, lng: nextProps.lng});
+  // }
+  componentDidMount() {
+    console.log(google.maps);
+    new google.maps.Map(this.ref.map, {
+      zoom: 12,
+      center: {
+        lat: this.props.lat,
+        lng: this.props.lng
+      }
+    });
+  }
   render() {
     return (
-      <div>This is the Map Component</div>
-    )
+      <div id="map" ref="map" />
+    );
   }
-}
-export default Map;
+  }
+
+export default GoogleMaps;
