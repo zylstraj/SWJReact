@@ -17,16 +17,16 @@ class GoogleMaps extends React.Component {
   constructor(props){
       super(props);
       console.log(props);
-      this.panToArcDeTriomphe = this.panToArcDeTriomphe.bind(this);
+      // this.panToArcDeTriomphe = this.panToArcDeTriomphe.bind(this);
       // console.log(this.props.location.latitude)
   }
-  // shouldComponentUpdate() {
-  //   return false;
-  // }
-  panToArcDeTriomphe() {
-    console.log(this)
-    this.map.panTo(ARC_DE_TRIOMPHE_POSITION);
+  shouldComponentUpdate() {
+    return false;
   }
+  // panToArcDeTriomphe() {
+  //   console.log(this)
+  //   this.map.panTo(ARC_DE_TRIOMPHE_POSITION);
+  // }
   // componentWillReceiveProps(nextProps) {
   //   console.log(nextProps.lat)
   //   console.log(nextProps.lng)
@@ -34,8 +34,9 @@ class GoogleMaps extends React.Component {
   // }
   componentDidMount() {
     console.log(google.maps);
-    new google.maps.Map(this.ref.map, {
-      zoom: 12,
+    console.log(this.props)
+    new google.maps.Map(this.refs.map, {
+      zoom: 15,
       center: {
         lat: this.props.lat,
         lng: this.props.lng
@@ -44,7 +45,8 @@ class GoogleMaps extends React.Component {
   }
   render() {
     return (
-      <div id="map" ref="map" />
+      <div className={styles.mapGames} ref="map">
+      </div>
     );
   }
   }
