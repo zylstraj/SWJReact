@@ -94,11 +94,13 @@ constructor(props){
 render() {
   return (
     <div>
+    <div className={styles.div_main_specific}>
     <img src={this.state.image} alt={this.state.id} />
       <h1>{this.state.title}</h1>
       <h2>{this.state.description}</h2>
       <p>{this.state.content}</p>
-      <div>
+    </div>
+      <div className={styles.div_main_specific}>
       <h1>School Information</h1>
       <p>Location: {this.state.location}</p>
       <p>Enrollment: {this.state.enrollment}</p>

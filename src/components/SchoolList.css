@@ -18,7 +18,9 @@ ul li {
   width: 100%;
   background-color: blue;
 }
-
+.div_main_specific {
+  width: 100%;
+}
 @media (min-width: 550px) and (max-width: 1049px) {
 .schoolName {
   float: left;
@@ -31,6 +33,10 @@ img {
 }
 }
 @media (min-width: 1050px) {
+  .div_main_specific {
+    width: 45%;
+    float: left;
+  }
   .schoolName {
     width: 30%;
     float: left;
