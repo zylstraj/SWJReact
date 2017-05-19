@@ -16,13 +16,13 @@ constructor(props){
       enrollment: "44,718",
       location: "Ann Arbor, MI",
       id: "michigan",
-      latitude: 42.2808,
-      longitude: -83.7430
+      latitude: 42.2775,
+      longitude: -83.7432
     },
     {
       title: "Ohio State",
       description: "Shit State",
-      content: "Easily the worst school in the Big 10. Universally disliked.",
+      content: "Easily the worst school in the Big 10. Universally disliked. If you went here, I feel sorry for you and hope that you regret every single moment you spent here. Second class school in the shittiest state in the entire country. ",
       image: "./ohiostate.jpg",
       enrollment: "66,046",
       location: "Columbus, OH",
