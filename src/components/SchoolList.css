@@ -13,9 +13,9 @@ ul li {
 .schoolName:hover {
   opacity: .3;
 }
-#map {
-  height: 300px;
-  width: 250px;
+.mapGames {
+  height: 500px;
+  width: 100%;
   background-color: blue;
 }
 @media screen and (max-width: 1050px) {
