@@ -10,6 +10,19 @@ const Route = ReactRouter.Route;
 import SelectSchool from './selectSchool';
 
 class SchoolList extends React.Component {
+  constructor() {
+    super()
+
+    this.state = {
+          title: "Michigan",
+          description: "University of Michigan has a unique history",
+          content: "This is the paragraph about my story and the article ad",
+          image: "./michigan.jpg",
+          enrollment: "44,718",
+          location: "Ann Arbor, MI",
+          id: "michigan"
+    }
+  }
   createList(){
     return this.props.schools.map((school) => {
       return(

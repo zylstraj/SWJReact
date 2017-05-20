@@ -1,31 +1,47 @@
-img {
-  height: 150px;
-  width: 150px;
+.imageSchool {
+  height: 200px;
+  width: 200px;
+}
+.schoolPhoto {
+  width: 80%;
+  height: 400px;
 }
 ul li {
   list-style-type: none;
 }
 .schoolName {
-  width: 30%;
-  float: left;
-}
-.schoolName:hover {
-  opacity: .3;
-}
-
-@media screen and (max-width: 1050px) {
-.schoolName {
-  width: 48%;
-}
-img {
-  height: 200px;
-  width: 200px;
-}
-}
-@media screen and (max-width: 550px) {
-.schoolName {
   width: 95%;
   text-align: center;
   margin-right: 5%;
 }
+.schoolName:hover {
+  opacity: .3;
+}
+.mapGames {
+  height: 500px;
+  width: 100%;
+  background-color: blue;
+}
+.div_main_specific {
+  width: 100%;
+}
+@media (min-width: 550px) and (max-width: 1049px) {
+.schoolName {
+  float: left;
+  width: 48%;
+  margin-right: 2%;
+}
+
+}
+@media (min-width: 1050px) {
+  .div_main_specific {
+    width: 45%;
+    float: left;
+  }
+  .schoolName {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-right: 0%;
+  }
 }
