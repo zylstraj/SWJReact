@@ -15,7 +15,7 @@ create2List(props) {
       className={styles.schoolName}>
       <Link to={school.id}>
       <h1>{school.title}</h1>
-      <img src={school.image} alt={school.title} />
+      <img src={school.image} alt={school.title} className={styles.imageSchool} />
       </Link>
       </div>
     )

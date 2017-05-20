@@ -95,8 +95,9 @@ render() {
   return (
     <div>
     <div className={styles.div_main_specific}>
-    <img src={this.state.image} alt={this.state.id} />
+    <img src={this.state.image} alt={this.state.id} className={styles.imageSchool} />
       <h1>{this.state.title}</h1>
+      <img src={this.state.mainImage} alt={this.state.id} className={styles.schoolPhoto}/>
       <h2>{this.state.description}</h2>
       <p>{this.state.content}</p>
     </div>
