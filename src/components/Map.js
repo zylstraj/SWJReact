@@ -42,10 +42,16 @@ class GoogleMaps extends React.Component {
         lng: this.props.lng
       }
     });
-    new google.maps.Marker({
+    var marker = new google.maps.Marker({
       position: {lat: this.props.lat, lng: this.props.lng},
       map: map
   });
+    var infowindow = new google.maps.InfoWindow({
+         content: this.props.content
+       });
+       marker.addListener('click', function() {
+         infowindow.open(map, marker)
+       })
   }
   render() {
     return (
