@@ -13,7 +13,7 @@ constructor(props){
       description: "University of Michigan has a unique history",
       content: "This is the paragraph about my story and the article ad",
       image: "./michigan.jpg",
-      mainImage: "./bighouse.jpg",
+      mainImage: "./michiganstadium.jpg",
       enrollment: "44,718",
       location: "Ann Arbor, MI",
       id: "michigan",

@@ -30,8 +30,8 @@ class SchoolList extends React.Component {
         className={styles.schoolName}
         onClick={() => this.props.selectSchool(school)}>
 
-          <h1>{school.title}</h1>
           <img src={school.image} alt={school.title} />
+          <h1>{school.title}</h1>
         </div>
       )
     })

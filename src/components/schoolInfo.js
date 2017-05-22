@@ -94,6 +94,10 @@ constructor(props){
 render() {
   return (
     <div>
+    <div className={styles.div_main_header}>
+      <img src={this.state.mainImage} alt="Michigan Stadium" className={styles.div_header_image} />
+    </div>
+    <div className={styles.div_main_content}>
     <div className={styles.div_main_specific}>
     <img src={this.state.image} alt={this.state.id} className={styles.imageSchool} />
       <h1>{this.state.title}</h1>
@@ -111,6 +115,7 @@ render() {
 
       </div>
 
+    </div>
     </div>
     </div>
   )
