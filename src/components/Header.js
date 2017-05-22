@@ -13,12 +13,34 @@ constructor(props){
       description: "University of Michigan has a unique history",
       content: "This is the paragraph about my story and the article ad",
       image: "./michigan.jpg",
-      mainImage: "./bighouse.jpg",
+      mainImage: "./michiganstadium.jpg",
       enrollment: "44,718",
       location: "Ann Arbor, MI",
       id: "michigan",
       latitude: 42.2775,
-      longitude: -83.7432
+      longitude: -83.7432,
+      locations: {
+        places: [
+        {
+          name: "Food",
+          description: "You will not find better food in the area",
+          lat: 42.2700,
+          lng: -83.7000
+        },
+        {
+          place: "Stadium",
+          description: "This is where sports happen",
+          lat: 42.2851,
+          lng: -83.7100
+        },
+        {
+          uniqueLocation: "Bridge",
+          description: "This is an incredible place to check out",
+          lat: 42.2800,
+          lng: -83.7050
+        }
+      ]
+    }
     },
     {
       title: "Ohio State",
@@ -30,7 +52,29 @@ constructor(props){
       location: "Columbus, OH",
       id: "ohiostate",
       latitude: 39.999387,
-      longitude: -83.02271
+      longitude: -83.02271,
+      locations: {
+        places: [
+        {
+          name: "Food",
+          description: "You will not find better food in the area",
+          lat: 42.2700,
+          lng: -83.7000
+        },
+        {
+          place: "Stadium",
+          description: "This is where sports happen",
+          lat: 42.2851,
+          lng: -83.7100
+        },
+        {
+          uniqueLocation: "Bridge",
+          description: "This is an incredible place to check out",
+          lat: 42.2800,
+          lng: -83.7050
+        }
+      ]
+    }
     },
     {
       title: "Michigan State",
@@ -42,7 +86,29 @@ constructor(props){
       location: "East Lansing, MI",
       id: "michiganstate",
       latitude: 42.7288,
-      longitude: -84.4849
+      longitude: -84.4849,
+      locations: {
+        places: [
+        {
+          name: "Food",
+          description: "You will not find better food in the area",
+          lat: 42.2700,
+          lng: -83.7000
+        },
+        {
+          place: "Stadium",
+          description: "This is where sports happen",
+          lat: 42.2851,
+          lng: -83.7100
+        },
+        {
+          uniqueLocation: "Bridge",
+          description: "This is an incredible place to check out",
+          lat: 42.2800,
+          lng: -83.7050
+        }
+      ]
+    }
     },
     {
       title: "Northwestern",
@@ -54,7 +120,29 @@ constructor(props){
       location: "Evanston, IL",
       id: "northwestern",
       latitude: 42.055984,
-      longitude: -87.675171
+      longitude: -87.675171,
+      locations: {
+        places: [
+        {
+          name: "Food",
+          description: "You will not find better food in the area",
+          lat: 42.2700,
+          lng: -83.7000
+        },
+        {
+          place: "Stadium",
+          description: "This is where sports happen",
+          lat: 42.2851,
+          lng: -83.7100
+        },
+        {
+          uniqueLocation: "Bridge",
+          description: "This is an incredible place to check out",
+          lat: 42.2800,
+          lng: -83.7050
+        }
+      ]
+    }
     },
     {
       title: "Wisconsin",
@@ -66,7 +154,29 @@ constructor(props){
       location: "Madison, WI",
       id: "wisconsin",
       latitude: 43.0766,
-      longitude: -89.4125
+      longitude: -89.4125,
+      locations: {
+        places: [
+        {
+          name: "Food",
+          description: "You will not find better food in the area",
+          lat: 42.2700,
+          lng: -83.7000
+        },
+        {
+          place: "Stadium",
+          description: "This is where sports happen",
+          lat: 42.2851,
+          lng: -83.7100
+        },
+        {
+          uniqueLocation: "Bridge",
+          description: "This is an incredible place to check out",
+          lat: 42.2800,
+          lng: -83.7050
+        }
+      ]
+    }
     },
     {
       title: "Penn State",
@@ -78,7 +188,29 @@ constructor(props){
       location: "State College, PA",
       id: "pennstate",
       latitude: 40.7982,
-      longitude: -77.8599
+      longitude: -77.8599,
+      locations: {
+        places: [
+        {
+          name: "Food",
+          description: "You will not find better food in the area",
+          lat: 42.2700,
+          lng: -83.7000
+        },
+        {
+          place: "Stadium",
+          description: "This is where sports happen",
+          lat: 42.2851,
+          lng: -83.7100
+        },
+        {
+          uniqueLocation: "Bridge",
+          description: "This is an incredible place to check out",
+          lat: 42.2800,
+          lng: -83.7050
+        }
+      ]
+    }
     },
     {
       title: "Illinois",
@@ -90,7 +222,29 @@ constructor(props){
       location: "Champaign, IL",
       id: "illinois",
       latitude: 40.1020,
-      longitude: -88.2272
+      longitude: -88.2272,
+      locations: {
+        places: [
+        {
+          name: "Food",
+          description: "You will not find better food in the area",
+          lat: 42.2700,
+          lng: -83.7000
+        },
+        {
+          place: "Stadium",
+          description: "This is where sports happen",
+          lat: 42.2851,
+          lng: -83.7100
+        },
+        {
+          uniqueLocation: "Bridge",
+          description: "This is an incredible place to check out",
+          lat: 42.2800,
+          lng: -83.7050
+        }
+      ]
+    }
     },
     {
       title: "Minnesota",
@@ -102,7 +256,29 @@ constructor(props){
       location: "Minneapolis, MN",
       id: "minnesota",
       latitude: 44.9740,
-      longitude: -93.2277
+      longitude: -93.2277,
+      locations: {
+        places: [
+        {
+          name: "Food",
+          description: "You will not find better food in the area",
+          lat: 42.2700,
+          lng: -83.7000
+        },
+        {
+          place: "Stadium",
+          description: "This is where sports happen",
+          lat: 42.2851,
+          lng: -83.7100
+        },
+        {
+          uniqueLocation: "Bridge",
+          description: "This is an incredible place to check out",
+          lat: 42.2800,
+          lng: -83.7050
+        }
+      ]
+    }
     },
     {
       title: "Nebraska",
@@ -114,7 +290,29 @@ constructor(props){
       location: "Lincoln, Nebraska",
       id: "nebraska",
       latitude: 40.8202,
-      longitude: -96.7005
+      longitude: -96.7005,
+      locations: {
+        places: [
+        {
+          name: "Food",
+          description: "You will not find better food in the area",
+          lat: 42.2700,
+          lng: -83.7000
+        },
+        {
+          place: "Stadium",
+          description: "This is where sports happen",
+          lat: 42.2851,
+          lng: -83.7100
+        },
+        {
+          uniqueLocation: "Bridge",
+          description: "This is an incredible place to check out",
+          lat: 42.2800,
+          lng: -83.7050
+        }
+      ]
+    }
     },
     {
       title: "Iowa",
@@ -126,7 +324,29 @@ constructor(props){
       location: "Iowa City, IA",
       id: "iowa",
       latitude: 41.6627,
-      longitude: -91.5549
+      longitude: -91.5549,
+      locations: {
+        places: [
+        {
+          name: "Food",
+          description: "You will not find better food in the area",
+          lat: 42.2700,
+          lng: -83.7000
+        },
+        {
+          place: "Stadium",
+          description: "This is where sports happen",
+          lat: 42.2851,
+          lng: -83.7100
+        },
+        {
+          uniqueLocation: "Bridge",
+          description: "This is an incredible place to check out",
+          lat: 42.2800,
+          lng: -83.7050
+        }
+      ]
+    }
     },
     {
       title: "Maryland",
@@ -138,7 +358,29 @@ constructor(props){
       location: "College Park, MD",
       id: "maryland",
       latitude: 38.9869,
-      longitude: -76.9426
+      longitude: -76.9426,
+      locations: {
+        places: [
+        {
+          name: "Food",
+          description: "You will not find better food in the area",
+          lat: 42.2700,
+          lng: -83.7000
+        },
+        {
+          place: "Stadium",
+          description: "This is where sports happen",
+          lat: 42.2851,
+          lng: -83.7100
+        },
+        {
+          uniqueLocation: "Bridge",
+          description: "This is an incredible place to check out",
+          lat: 42.2800,
+          lng: -83.7050
+        }
+      ]
+    }
     },
     {
       title: "Rutgers",
@@ -150,7 +392,29 @@ constructor(props){
       location: "New Brunswick, NJ",
       id: "rutgers",
       latitude: 40.4982,
-      longitude: -74.4468
+      longitude: -74.4468,
+      locations: {
+        places: [
+        {
+          name: "Food",
+          description: "You will not find better food in the area",
+          lat: 42.2700,
+          lng: -83.7000
+        },
+        {
+          place: "Stadium",
+          description: "This is where sports happen",
+          lat: 42.2851,
+          lng: -83.7100
+        },
+        {
+          uniqueLocation: "Bridge",
+          description: "This is an incredible place to check out",
+          lat: 42.2800,
+          lng: -83.7050
+        }
+      ]
+    }
     },
     {
       title: "Purdue",
@@ -162,7 +426,29 @@ constructor(props){
       location: "West Lafetette, IN",
       id: "purdue",
       latitude: 40.4237,
-      longitude: -86.9212
+      longitude: -86.9212,
+      locations: {
+        places: [
+        {
+          name: "Food",
+          description: "You will not find better food in the area",
+          lat: 42.2700,
+          lng: -83.7000
+        },
+        {
+          place: "Stadium",
+          description: "This is where sports happen",
+          lat: 42.2851,
+          lng: -83.7100
+        },
+        {
+          uniqueLocation: "Bridge",
+          description: "This is an incredible place to check out",
+          lat: 42.2800,
+          lng: -83.7050
+        }
+      ]
+    }
     },
     {
       title: "Indiana",
@@ -174,7 +460,29 @@ constructor(props){
       location: "Bloomington, IN",
       id: "indiana",
       latitude: 39.1766,
-      longitude: -86.5130
+      longitude: -86.5130,
+      locations: {
+        places: [
+        {
+          name: "Food",
+          description: "You will not find better food in the area",
+          lat: 42.2700,
+          lng: -83.7000
+        },
+        {
+          place: "Stadium",
+          description: "This is where sports happen",
+          lat: 42.2851,
+          lng: -83.7100
+        },
+        {
+          uniqueLocation: "Bridge",
+          description: "This is an incredible place to check out",
+          lat: 42.2800,
+          lng: -83.7050
+        }
+      ]
+    }
     }
   ]
 }

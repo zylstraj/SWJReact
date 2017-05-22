@@ -34,14 +34,25 @@ class GoogleMaps extends React.Component {
   // }
   componentDidMount() {
     console.log(google.maps);
-    console.log(this.props)
-    new google.maps.Map(this.refs.map, {
+    console.log(this.props.content[0].lat)
+
+    var map = new google.maps.Map(this.refs.map, {
       zoom: 15,
       center: {
         lat: this.props.lat,
         lng: this.props.lng
       }
     });
+    var marker = new google.maps.Marker({
+      position: {lat: this.props.content[1].lat, lng: this.props.content[1].lng},
+      map: map
+  });
+    var infowindow = new google.maps.InfoWindow({
+         content: this.props.content[1].description
+       });
+       marker.addListener('click', function() {
+         infowindow.open(map, marker)
+       })
   }
   render() {
     return (

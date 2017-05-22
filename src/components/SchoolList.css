@@ -25,6 +25,16 @@ ul li {
 .div_main_specific {
   width: 100%;
 }
+.div_main_header {
+  height: 300px;
+}
+.div_header_image {
+  height: 300px;
+  width: 100%;
+}
+.div_main_content {
+  clear: both;
+}
 @media (min-width: 550px) and (max-width: 1049px) {
 .schoolName {
   float: left;
@@ -37,6 +47,7 @@ ul li {
   .div_main_specific {
     width: 45%;
     float: left;
+    clear: right;
   }
   .schoolName {
     width: 30%;

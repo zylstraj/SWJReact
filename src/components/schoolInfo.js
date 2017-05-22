@@ -94,8 +94,12 @@ constructor(props){
 render() {
   return (
     <div>
+    <div className={styles.div_main_header}>
+      <img src={this.state.image} alt={this.state.id} className={styles.imageSchool} />
+      <img src={this.state.mainImage} alt="Michigan Stadium" className={styles.div_header_image} />
+    </div>
+    <div className={styles.div_main_content}>
     <div className={styles.div_main_specific}>
-    <img src={this.state.image} alt={this.state.id} className={styles.imageSchool} />
       <h1>{this.state.title}</h1>
       <img src={this.state.mainImage} alt={this.state.id} className={styles.schoolPhoto}/>
       <h2>{this.state.description}</h2>
@@ -107,10 +111,11 @@ render() {
       <p>Enrollment: {this.state.enrollment}</p>
       <div className={styles.googleDiv}>
 
-        <GoogleMaps lat={this.state.latitude} lng={this.state.longitude} />
+        <GoogleMaps lat={this.state.latitude} lng={this.state.longitude} content={this.state.locations.places}/>
 
       </div>
 
+    </div>
     </div>
     </div>
   )
