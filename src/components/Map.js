@@ -35,13 +35,17 @@ class GoogleMaps extends React.Component {
   componentDidMount() {
     console.log(google.maps);
     console.log(this.props)
-    new google.maps.Map(this.refs.map, {
+    var map = new google.maps.Map(this.refs.map, {
       zoom: 15,
       center: {
         lat: this.props.lat,
         lng: this.props.lng
       }
     });
+    new google.maps.Marker({
+      position: {lat: this.props.lat, lng: this.props.lng},
+      map: map
+  });
   }
   render() {
     return (

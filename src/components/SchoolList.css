@@ -47,7 +47,7 @@ ul li {
   .div_main_specific {
     width: 45%;
     float: left;
-    clear: both;
+    clear: right;
   }
   .schoolName {
     width: 30%;
