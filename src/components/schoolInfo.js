@@ -111,7 +111,7 @@ render() {
       <p>Enrollment: {this.state.enrollment}</p>
       <div className={styles.googleDiv}>
 
-        <GoogleMaps lat={this.state.latitude} lng={this.state.longitude} content={this.state.content}/>
+        <GoogleMaps lat={this.state.latitude} lng={this.state.longitude} content={this.state.locations.places}/>
 
       </div>
 
