@@ -48,7 +48,7 @@ constructor(props){
       description: "Shit State",
       content: "Easily the worst school in the Big 10. Universally disliked. If you went here, I feel sorry for you and hope that you regret every single moment you spent here. Second class school in the shittiest state in the entire country. ",
       image: "./ohiostate.jpg",
-      mainImage: "./michiganstadium.jpg",
+      mainImage: "./ohiostadium.jpg",
       enrollment: "66,046",
       location: "Columbus, OH",
       id: "ohiostate",
@@ -82,7 +82,7 @@ constructor(props){
       description: "Michigan State is bad",
       content: "Grand River sucks",
       image: "./michiganstate.gif",
-      mainImage: "./michiganstadium.jpg",
+      mainImage: "./msucampus.jpg",
       enrollment: "50,344",
       location: "East Lansing, MI",
       id: "michiganstate",
@@ -91,22 +91,22 @@ constructor(props){
       locations: {
         places: [
         {
-          name: "Food",
-          description: "You will not find better food in the area",
-          lat: 42.2700,
-          lng: -83.7000
+          name: "HopCat",
+          description: "Local chain with great beer and food. Check it out!",
+          lat: 42.735945,
+          lng: -84.481880
         },
         {
-          place: "Stadium",
-          description: "This is where sports happen",
-          lat: 42.2851,
-          lng: -83.7100
+          place: "Breslin Center",
+          description: "Michigan State Basketball takes place here",
+          lat: 42.728411,
+          lng: -84.492520
         },
         {
-          uniqueLocation: "Bridge",
-          description: "This is an incredible place to check out",
-          lat: 42.2800,
-          lng: -83.7050
+          uniqueLocation: "Rick's American Cafe",
+          description: "Grimey, dirty and a place to dance your heart out in this barrne",
+          lat: 42.735809,
+          lng: -84.483513
         }
       ]
     }
