@@ -35,8 +35,6 @@ class GoogleMaps extends React.Component {
   componentDidMount() {
     console.log(google.maps);
     console.log(this.props.content)
-    const differentPlaces = this.props.content;
-    console.log(differentPlaces)
 
     var map = new google.maps.Map(this.refs.map, {
       zoom: 15,
@@ -74,13 +72,47 @@ class GoogleMaps extends React.Component {
     //     infowindow.open(map, marker)
     //   })
     // })
+// PRACTICE #3.
+//     const differentPlaces = this.props.content;
+//     console.log(differentPlaces.lat)
+//     var infowindow = new google.maps.InfoWindow();
+// for(var i=0; i < differentPlaces.length; i++) {
+//     var position = new google.maps.LatLng(differentPlaces[i].lat, differentPlaces[i].lng);
+//     var marker = new google.maps.Marker({
+//       position: position,
+//       map: map,
+//       info: differentPlaces[i].info
+//     });
+//     marker.infowindow = infowindow;
+//
+//     google.maps.event.addListener(marker, 'click', function() {
+//       return this.infowindow.open(map, this)
+//     })
+//
+//   }
+//   PRACTICE 3 ENDS HERE.
+
+// THE WORKING CODE IS BELOW.
     var marker = new google.maps.Marker({
       position: {lat: this.props.content[1].lat, lng: this.props.content[1].lng},
-      map: map
+      map: map,
+      info: this.props.content[1].description
   });
+     var markerTwo = new google.maps.Marker({
+       position: {lat: this.props.content[0].lat, lng: this.props.content[0].lng},
+       map: map,
+       info: this.props.content[0].description
+   });
+      var markerThree = new google.maps.Marker({
+        position: {lat: this.props.content[2].lat, lng: this.props.content[2].lng},
+        map: map,
+        info: this.props.content[2].description
+    });
+
     var infowindow = new google.maps.InfoWindow({
          content: this.props.content[1].description
        });
+
        marker.addListener('click', function() {
          infowindow.open(map, marker)
        })
