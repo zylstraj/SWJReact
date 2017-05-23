@@ -37,11 +37,12 @@ class GoogleMaps extends React.Component {
     console.log(this.props.content)
 
     var map = new google.maps.Map(this.refs.map, {
-      zoom: 15,
+      zoom: 14,
       center: {
         lat: this.props.lat,
         lng: this.props.lng
-      }
+      },
+      scrollwheel: false
     });
     // var marker = differentPlaces.map(function(place, index) {
     //     new google.maps.Marker({

@@ -3,6 +3,7 @@ import {Switch, Route, Link} from 'react-router-dom';
 import Practice from './Practice';
 import SchoolInfo from './schoolInfo';
 import GoogleMaps from './Map';
+
 class Header extends React.Component {
 constructor(props){
   super(props);
@@ -22,22 +23,22 @@ constructor(props){
       locations: {
         places: [
         {
-          name: "Food",
+          name: "Good Time Charleys",
           description: "You will not find better food in the area",
-          lat: 42.2700,
-          lng: -83.7000
+          lat: 42.27457,
+          lng: -83.734268
         },
         {
-          place: "Stadium",
+          place: "Big House",
           description: "This is where sports happen",
-          lat: 42.2851,
-          lng: -83.7100
+          lat: 42.2658,
+          lng: -83.7487
         },
         {
-          uniqueLocation: "Bridge",
+          uniqueLocation: "Zingerman's Delicatessen",
           description: "This is an incredible place to check out",
-          lat: 42.2800,
-          lng: -83.7050
+          lat: 42.284588,
+          lng: -83.74478
         }
       ]
     }
@@ -47,7 +48,7 @@ constructor(props){
       description: "Shit State",
       content: "Easily the worst school in the Big 10. Universally disliked. If you went here, I feel sorry for you and hope that you regret every single moment you spent here. Second class school in the shittiest state in the entire country. ",
       image: "./ohiostate.jpg",
-      mainImage: "./bighouse.jpg",
+      mainImage: "./michiganstadium.jpg",
       enrollment: "66,046",
       location: "Columbus, OH",
       id: "ohiostate",
@@ -62,10 +63,10 @@ constructor(props){
           lng: -83.7000
         },
         {
-          place: "Stadium",
+          place: "Big House",
           description: "This is where sports happen",
-          lat: 42.2851,
-          lng: -83.7100
+          lat: 42.2658,
+          lng: -83.7487
         },
         {
           uniqueLocation: "Bridge",
@@ -81,7 +82,7 @@ constructor(props){
       description: "Michigan State is bad",
       content: "Grand River sucks",
       image: "./michiganstate.gif",
-      mainImage: "./bighouse.jpg",
+      mainImage: "./michiganstadium.jpg",
       enrollment: "50,344",
       location: "East Lansing, MI",
       id: "michiganstate",
