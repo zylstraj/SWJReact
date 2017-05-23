@@ -150,7 +150,7 @@ constructor(props){
       description: "University of Michigan has a unique history",
       content: "This is the paragraph about my story and the article ad",
       image: "./wisconsin.gif",
-      mainImage: "./bighouse.jpg",
+      mainImage: "./wisconsinstadium.jpg",
       enrollment: "43,338",
       location: "Madison, WI",
       id: "wisconsin",
@@ -159,22 +159,22 @@ constructor(props){
       locations: {
         places: [
         {
-          name: "Food",
-          description: "You will not find better food in the area",
-          lat: 42.2700,
-          lng: -83.7000
+          name: "Tipsy Cow",
+          description: "Yum, Yum, Yum. You will not be disappointed.",
+          lat: 43.074783,
+          lng: -89.381521
         },
         {
-          place: "Stadium",
-          description: "This is where sports happen",
-          lat: 42.2851,
-          lng: -83.7100
+          place: "Camp Randall Stadium",
+          description: "This is the place to watch a game. Wisconsin loves their football already with the Packers and get the college equivalent of that devotion here!",
+          lat: 43.069846,
+          lng: -89.412651
         },
         {
-          uniqueLocation: "Bridge",
-          description: "This is an incredible place to check out",
-          lat: 42.2800,
-          lng: -83.7050
+          uniqueLocation: "Majestic Theatre",
+          description: "This is an incredible place to check out. Go see a show. Madison is a magical place and this si the place to be.",
+          lat: 43.074454,
+          lng: -89.380948
         }
       ]
     }
@@ -184,7 +184,7 @@ constructor(props){
       description: "Shit State",
       content: "Easily the worst school in the Big 10. Universally disliked.",
       image: "./pennstate.jpg",
-      mainImage: "./bighouse.jpg",
+      mainImage: "./pennstatestadium.jpg",
       enrollment: "99,133",
       location: "State College, PA",
       id: "pennstate",
@@ -193,22 +193,22 @@ constructor(props){
       locations: {
         places: [
         {
-          name: "Food",
-          description: "You will not find better food in the area",
-          lat: 42.2700,
-          lng: -83.7000
+          name: "Waffle House",
+          description: "Get Your Breakfest Here. Waffles on waffles on waffles.",
+          lat: 40.79775,
+          lng: -77.856962
         },
         {
-          place: "Stadium",
-          description: "This is where sports happen",
-          lat: 42.2851,
-          lng: -83.7100
+          place: "Beaver Stadium",
+          description: "Penn State Football. Enough said. If you are seeing a game here, hit a night game and be a part of a crazy white out.",
+          lat: 40.812228,
+          lng: -77.856092
         },
         {
-          uniqueLocation: "Bridge",
-          description: "This is an incredible place to check out",
-          lat: 42.2800,
-          lng: -83.7050
+          uniqueLocation: "Penn State Golf Course",
+          description: "Not a ton to do at Penn State, so pick up golfing and you'll have at least a way to help pass the time while you are here!",
+          lat: 40.789880,
+          lng: -77.876661
         }
       ]
     }
@@ -437,10 +437,10 @@ constructor(props){
           lng: -83.7000
         },
         {
-          place: "Stadium",
-          description: "This is where sports happen",
-          lat: 42.2851,
-          lng: -83.7100
+          place: "Mackey Arena",
+          description: "Purdue's Men and Women's Basketball teams play here. Not much else is happening, so go see a basketball game.",
+          lat: 40.433287,
+          lng: -86.916111
         },
         {
           uniqueLocation: "Bridge",
@@ -456,7 +456,7 @@ constructor(props){
       description: "Chi-town's finest",
       content: "Evanston is a great place to raise a family, attend school, and if you want to party well... Chicago has everything you would ever want",
       image: "./indiana.png",
-      mainImage: "./bighouse.jpg",
+      mainImage: "./assemblyhall.jpg",
       enrollment: "48,514",
       location: "Bloomington, IN",
       id: "indiana",
@@ -465,22 +465,22 @@ constructor(props){
       locations: {
         places: [
         {
-          name: "Food",
-          description: "You will not find better food in the area",
-          lat: 42.2700,
-          lng: -83.7000
+          name: "The Runcible Spoon",
+          description: "Grab Your Brunch Here. They will take your hangover and make it disappear!",
+          lat: 39.167319,
+          lng: -86.529028
         },
         {
-          place: "Stadium",
-          description: "This is where sports happen",
-          lat: 42.2851,
-          lng: -83.7100
+          place: "Assembly Hall",
+          description: "Be a part of history. Indiana Basketball and the Hoosiers are famous for a reason. Maybe the best place to catch a game unless you are a Duke fan, which - - if that's the case, you are useless to society.",
+          lat: 39.180849,
+          lng: -86.522122
         },
         {
-          uniqueLocation: "Bridge",
-          description: "This is an incredible place to check out",
-          lat: 42.2800,
-          lng: -83.7050
+          uniqueLocation: "Restaurant Tallent",
+          description: "Are you a grown adult and not looking for the college place to eat? Check this place out! Farm to Table! A rariety in the Midwest.",
+          lat: 39.168000,
+          lng: -86.533363
         }
       ]
     }
