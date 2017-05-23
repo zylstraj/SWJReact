@@ -95,28 +95,28 @@ render() {
   return (
     <div>
     <div className={styles.div_main_header}>
-      <img src={this.state.image} alt={this.state.id} className={styles.imageSchool} />
+      <img src={this.state.image} alt={this.state.id} className={styles.schoolImage_header} />
       <img src={this.state.mainImage} alt="Michigan Stadium" className={styles.div_header_image} />
     </div>
     <div className={styles.div_main_content}>
-    <div className={styles.div_main_specific}>
-      <h1>{this.state.title}</h1>
-      <img src={this.state.mainImage} alt={this.state.id} className={styles.schoolPhoto}/>
+    <div className={styles.div_content_One}>
       <h2>{this.state.description}</h2>
       <p>{this.state.content}</p>
     </div>
-      <div className={styles.div_main_specific}>
+      <div className={styles.div_content_Two}>
       <h1>School Information</h1>
       <p>Location: {this.state.location}</p>
       <p>Enrollment: {this.state.enrollment}</p>
+      </div>
       <div className={styles.googleDiv}>
-
+        <h1>Things To Do and Where To Go</h1>
         <GoogleMaps lat={this.state.latitude} lng={this.state.longitude} content={this.state.locations.places}/>
 
       </div>
-
     </div>
-    </div>
+    <footer>
+      <img src={this.state.image} alt={this.state.id} className={styles.imageSchool} />
+    </footer>
     </div>
   )
   }

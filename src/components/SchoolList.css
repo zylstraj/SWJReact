@@ -1,6 +1,10 @@
 .imageSchool {
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
+}
+.schoolImage_header {
+  height: 50px;
+  width: 50px;
 }
 .schoolPhoto {
   width: 80%;
@@ -19,21 +23,32 @@ ul li {
 }
 .mapGames {
   height: 500px;
-  width: 100%;
-  background-color: blue;
+  width: 90%;
+  margin: 0 auto
 }
-.div_main_specific {
+.div_content_One, .div_content_Two {
+  text-align: center;
   width: 100%;
 }
 .div_main_header {
-  height: 300px;
+  text-align: center;
 }
 .div_header_image {
-  height: 300px;
+  height: 200px;
   width: 100%;
 }
 .div_main_content {
   clear: both;
+}
+.div_main_specific {
+  clear: both;
+}
+.googleDiv {
+  clear: both;
+  text-align: center;
+}
+footer {
+  text-align: center;
 }
 @media (min-width: 550px) and (max-width: 1049px) {
 .schoolName {
@@ -41,18 +56,39 @@ ul li {
   width: 48%;
   margin-right: 2%;
 }
+.mapGames {
+  width: 80%;
+}
 
 }
 @media (min-width: 1050px) {
-  .div_main_specific {
+  /*.div_main_specific {
     width: 45%;
     float: left;
     clear: right;
+  }*/
+  .div_content_One {
+    width: 45%;
+    float: left;
+  }
+  .div_content_Two {
+    width: 45%;
+    float: right;
+  }
+  .schoolImage_header {
+    height: 50px;
+    width: 50px;
+    text-align: left;
+    padding-left: 25px;
   }
   .schoolName {
     width: 30%;
     float: left;
     text-align: center;
     margin-right: 0%;
+  }
+  .div_header_image {
+    height: 300px;
+    width: 100%;
   }
 }
