@@ -84,7 +84,7 @@ for(var i=0; i < markers.length; i++) {
     // Allow each marker to have an info window
    google.maps.event.addListener(marker, 'click', (function(marker, i) {
        return function() {
-           infoWindow.setContent('<div><h2 className={styles.h1_icon}>' + markers[i].name + '</h2><p class="p_icon">' + markers[i].description + '</p></div>');
+           infoWindow.setContent('<div><h2>' + markers[i].name + '</h2><p class="p_icon">' + markers[i].description + '</p></div>');
            infoWindow.open(map, marker);
        }
    })(marker, i));
