@@ -94,29 +94,28 @@ constructor(props){
 render() {
   return (
     <div>
-    <div className={styles.div_main_header}>
-      <img src={this.state.image} alt={this.state.id} className={styles.schoolImage_header} />
-      <img src={this.state.mainImage} alt="Michigan Stadium" className={styles.div_header_image} />
-    </div>
-    <div className={styles.div_main_content}>
-    <div className={styles.div_content_One}>
-      <h2>{this.state.description}</h2>
-      <p>{this.state.content}</p>
-    </div>
-      <div className={styles.div_content_Two}>
-      <h1>School Information</h1>
-      <p>Location: {this.state.location}</p>
-      <p>Enrollment: {this.state.enrollment}</p>
+      <div className={styles.div_main_header}>
+        <img src={this.state.image} alt={this.state.id} className={styles.schoolImage_header} />
+        <img src={this.state.mainImage} alt="Michigan Stadium" className={styles.div_header_image} />
       </div>
-      <div className={styles.googleDiv}>
-        <h1>Things To Do & Where To Go</h1>
-        <GoogleMaps lat={this.state.latitude} lng={this.state.longitude} content={this.state.locations.places} icon={this.state.image}/>
-
+      <div className={styles.div_main_content}>
+        <div className={styles.div_content_One}>
+          <h2>{this.state.description}</h2>
+          <p>{this.state.content}</p>
+        </div>
+        <div className={styles.div_content_Two}>
+          <h1>School Information</h1>
+          <p>Location: {this.state.location}</p>
+          <p>Enrollment: {this.state.enrollment}</p>
+        </div>
+        <div className={styles.googleDiv}>
+          <h1>Things To Do & Where To Go</h1>
+          <GoogleMaps lat={this.state.latitude} lng={this.state.longitude} content={this.state.locations.places} icon={this.state.image}/>
+        </div>
       </div>
-    </div>
-    <footer>
-      <img src={this.state.image} alt={this.state.id} className={styles.imageSchool} />
-    </footer>
+      <footer>
+        <img src={this.state.image} alt={this.state.id} className={styles.imageSchool} />
+      </footer>
     </div>
   )
   }

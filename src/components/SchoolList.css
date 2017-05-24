@@ -2,6 +2,17 @@
   height: 200px;
   width: 200px;
 }
+
+/* Header */
+.imgHeader{
+  display: block;
+  margin: 0 auto;
+  height: 250px;
+  width: 250px;
+}
+.listHeader {
+  text-align: center;
+}
 .schoolImage_header {
   height: 50px;
   width: 50px;
