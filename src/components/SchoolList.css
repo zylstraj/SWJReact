@@ -1,6 +1,6 @@
 .imageSchool {
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
 }
 .schoolImage_header {
   height: 50px;
@@ -52,6 +52,10 @@ ul li {
 }
 footer {
   text-align: center;
+}
+footer .imageSchool {
+  height: 100px;
+  width: 100px;
 }
 @media (min-width: 550px) and (max-width: 1049px) {
 .schoolName {
