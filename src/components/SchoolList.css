@@ -2,187 +2,33 @@
   height: 200px;
   width: 200px;
 }
-
-/* Header */
-.imgHeader{
-  display: block;
-  margin: 0 auto;
-  height: 250px;
-  width: 250px;
-}
 .listHeader {
   text-align: center;
 }
-.schoolImage_header {
-  height: 50px;
-  width: 50px;
-  display: inline;
+/* Header */
+.imgHeader {
+  display: block;
+  margin: 0 auto;
+  height: 250px;
+  width
+  : 250px;
 }
-.schoolPhoto {
-  width: 80%;
-  height: 400px;
-}
-.mapGames p {
-  color: blue;
-}
-.mapGames h2 {
-  color: red;
-}
-ul li {
-  list-style-type: none;
-}
-.schoolName {
-  width: 95%;
-  text-align: center;
-  margin-right: 5%;
-}
-.schoolName:hover {
-  opacity: .3;
-}
-.mapGames {
-  height: 500px;
-  width: 90%;
-  margin: 0 auto
-}
-.div_content_One, .div_content_Two {
-  text-align: center;
-  width: 100%;
-}
-.div_main_header {
-  text-align: center;
-}
-.div_header_image {
-  height: 200px;
-  width: 100%;
-}
-.div_main_content {
-  clear: both;
-}
-.div_main_specific {
-  clear: both;
-}
-.googleDiv {
-  clear: both;
-  text-align: center;
-}
-footer {
-  text-align: center;
-}
-footer .imageSchool {
-  height: 100px;
-  width: 100px;
-  margin: 3em 0;
-}
-footer .imageSchool:hover {
+.imageSchool:hover {
   opacity: .5;
 }
-div[data-school] {
-  border-radius: 50px;
-  margin: 0;
-  padding: 0;
-}
-div[data-school="michigan"] {
-  background-color:  #041E42;
-  color: #FFC72C;
-}
-div[data-school="ohiostate"] {
-  color: #bb0000;
-  background-color: #666666;
-}
-div[data-school="wisconsin"] {
-  color: #c5050c;
-  background-color: #f7f7f7;
-}
-
-div[data-school="michiganstate"] {
-  color: #19453B;
-}
-div[data-school="northwestern"] {
-  color: #4E2A84;
-}
-div[data-school="pennstate"] {
-  color: #0066FF;
-  background-color: #666666;
-}
-div[data-school="illinois"] {
-  background-color: #131F33;
-  color: #FA6300;
-}
-div[data-school="minnesota"] {
-  color: #FFCD00;
-  background-color: #7A0019;
-}
-div[data-school="nebraska"] {
-  color: #D00000;
-  background-color: #FEFDFA;
-}
-div[data-school="iowa"] {
-  color: #000000;
-  background-color: #FFCD00;
-}
-div[data-school="maryland"] {
-  color: #ff0000;
-  background-color: #ffcc00;
-}
-div[data-school="rutgers"] {
-  color: #cc0033;
-  background-color: #5f6a72;
-}
-div[data-school="purdue"] {
-  color: #C28E0E;
-  background-color: #000000;
-}
-div[data-school="indiana"] {
-  color: #990000;
-  background-color: #EEEDEB;
-}
-@media (min-width: 550px) and (max-width: 960px) {
+@media (min-width: 550px) {
 .schoolName {
   float: left;
   width: 48%;
   margin-right: 2%;
 }
-.mapGames {
-  width: 80%;
 }
-.div_header_image {
-  height: 300px;
-  width: 100%;
-}
-}
+
 @media (min-width: 961px) {
-  /*.div_main_specific {
-    width: 45%;
-    float: left;
-    clear: right;
-  }*/
-  .div_content_One {
-    width: 45%;
-    float: left;
-  }
-  .div_content_Two {
-    width: 45%;
-    float: right;
-  }
-  .schoolImage_header {
-    height: 50px;
-    width: 50px;
-    text-align: left;
-    padding-left: 25px;
-  }
   .schoolName {
     width: 33%;
     float: left;
     text-align: center;
     margin-right: 0%;
   }
-  .div_header_image {
-    height: 300px;
-    width: 100%;
-  }
-}
-@media (min-width: 1200px) {
-    .div_header_image {
-      height: 400px;
-    }
 }

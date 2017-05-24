@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './SchoolList.css';
+import styles from './SchoolInfo.css';
 // import { withGoogleMap, Loader, GoogleMap, Marker } from 'react-google-maps';
 
 class GoogleMaps extends React.Component {

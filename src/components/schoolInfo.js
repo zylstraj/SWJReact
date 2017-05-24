@@ -1,6 +1,6 @@
 import React from 'react';
 import GoogleMaps from './Map';
-import styles from './SchoolList.css';
+import styles from './SchoolInfo.css';
 import {Link} from 'react-router-dom';
 
 class SchoolInfo extends React.Component {
