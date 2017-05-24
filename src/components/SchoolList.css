@@ -1,6 +1,6 @@
 .imageSchool {
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
 }
 .schoolImage_header {
   height: 50px;
@@ -53,7 +53,11 @@ ul li {
 footer {
   text-align: center;
 }
-@media (min-width: 550px) and (max-width: 1049px) {
+footer .imageSchool {
+  height: 100px;
+  width: 100px;
+}
+@media (min-width: 550px) and (max-width: 960px) {
 .schoolName {
   float: left;
   width: 48%;
@@ -62,9 +66,12 @@ footer {
 .mapGames {
   width: 80%;
 }
-
+.div_header_image {
+  height: 300px;
+  width: 100%;
 }
-@media (min-width: 1050px) {
+}
+@media (min-width: 961px) {
   /*.div_main_specific {
     width: 45%;
     float: left;
@@ -94,4 +101,9 @@ footer {
     height: 300px;
     width: 100%;
   }
+}
+@media (min-width: 1200px) {
+    .div_header_image {
+      height: 400px;
+    }
 }
