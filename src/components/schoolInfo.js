@@ -97,6 +97,7 @@ render() {
     <div>
       <div className={styles.div_main_header}>
         <img src={this.state.image} alt={this.state.id} className={styles.schoolImage_header} />
+        <h1><Link to="/">Home</Link></h1>
         <img src={this.state.mainImage} alt="Michigan Stadium" className={styles.div_header_image} />
       </div>
       <div className={styles.div_main_content}>
