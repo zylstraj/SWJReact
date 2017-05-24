@@ -94,7 +94,7 @@ constructor(props){
 
 render() {
   return (
-    <div>
+    <div data-school={this.state.id}>
       <div className={styles.div_main_header}>
         <img src={this.state.image} alt={this.state.id} className={styles.schoolImage_header} />
         <h1><Link to="/">Home</Link></h1>
