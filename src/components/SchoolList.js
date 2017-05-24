@@ -24,11 +24,10 @@ create2List(props) {
 }
   render() {
   return (
-    <div>
-    <img src="./BigTen.png" alt="Big Ten" />
-    <h1>Choose A University</h1>
-      <div>
-      {this.create2List()}
+    <div className={styles.listHeader}>
+      <img src="./BigTen.png" alt="Big Ten" className={styles.imgHeader}/>
+      <div className={styles.listHeader}>
+        {this.create2List()}
       </div>
     </div>
   )
