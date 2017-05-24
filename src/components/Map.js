@@ -2,17 +2,6 @@ import React from 'react';
 import styles from './SchoolList.css';
 // import { withGoogleMap, Loader, GoogleMap, Marker } from 'react-google-maps';
 
-// console.log(withGoogleMap)
-// const SimpleMapExampleGoogleMap = withGoogleMap(props => (
-// <GoogleMap
-//   defaultZoom={13}
-//   defaultCenter={{ lat: 42.2808, lng: -83.7430 }}
-// />
-// ));
-const ARC_DE_TRIOMPHE_POSITION = {
-  lat: 48.873947,
-  lng: 2.295038
-};
 class GoogleMaps extends React.Component {
   constructor(props){
       super(props);
@@ -23,10 +12,6 @@ class GoogleMaps extends React.Component {
   shouldComponentUpdate() {
     return false;
   }
-  // panToArcDeTriomphe() {
-  //   console.log(this)
-  //   this.map.panTo(ARC_DE_TRIOMPHE_POSITION);
-  // }
   // componentWillReceiveProps(nextProps) {
   //   console.log(nextProps.lat)
   //   console.log(nextProps.lng)
