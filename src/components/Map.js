@@ -74,6 +74,13 @@ class GoogleMaps extends React.Component {
     //   })
     // })
 // PRACTICE #3.
+var icon = {
+    url: this.props.icon, // url
+    scaledSize: new google.maps.Size(50, 50), // scaled size
+    origin: new google.maps.Point(0,0), // origin
+    anchor: new google.maps.Point(0, 0) // anchor
+};
+var iconSchool = this.props.icon;
 var bounds = new google.maps.LatLngBounds();
 var markers = this.props.content;
 console.log(markers);
@@ -86,12 +93,12 @@ for(var i=0; i < markers.length; i++) {
    marker = new google.maps.Marker({
       position: position,
       map: map,
-      info: markers[i].info
+      title: markers[i].info,
+      icon: icon
     });
     // Allow each marker to have an info window
    google.maps.event.addListener(marker, 'click', (function(marker, i) {
        return function() {
-           infoWindow.setContent(markers[i].description);
            infoWindow.open(map, marker);
        }
    })(marker, i));

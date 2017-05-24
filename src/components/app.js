@@ -29,13 +29,13 @@ constructor(props){
           lng: -83.734268
         },
         {
-          place: "Big House",
+          name: "Big House",
           description: "This is where sports happen",
           lat: 42.2658,
           lng: -83.7487
         },
         {
-          uniqueLocation: "Zingerman's Delicatessen",
+          name: "Zingerman's Delicatessen",
           description: "This is an incredible place to check out",
           lat: 42.284588,
           lng: -83.74478
@@ -63,13 +63,13 @@ constructor(props){
           lng: -83.008051
         },
         {
-          place: "Ohio Stadium",
+          name: "Ohio Stadium",
           description: "This place is known as the horshoe, or to everyone else - - this is where a bunch of idiots gather a few times every fall",
           lat: 40.001647,
           lng: -83.019682
         },
         {
-          uniqueLocation: "Ohio State Police Department",
+          name: "Ohio State Police Department",
           description: "This is an incredible place to check out on the weekends. You can meet all of your favorite Buckeye athletes and get some really good autographs",
           lat: 40.002956,
           lng: -83.032620
@@ -97,13 +97,13 @@ constructor(props){
           lng: -84.481880
         },
         {
-          place: "Breslin Center",
+          name: "Breslin Center",
           description: "Michigan State Basketball takes place here",
           lat: 42.728411,
           lng: -84.492520
         },
         {
-          uniqueLocation: "Rick's American Cafe",
+          name: "Rick's American Cafe",
           description: "Grimey, dirty and a place to dance your heart out in this barrne",
           lat: 42.735809,
           lng: -84.483513
@@ -131,13 +131,13 @@ constructor(props){
           lng: -87.628543
         },
         {
-          place: "Wrigley Field",
+          name: "Wrigley Field",
           description: "Honestly, skip Northwestern spots. You are in Chicago. If it's baseball time, get on down to Wrigley Field and spend a day drinking.",
           lat: 41.948422,
           lng: -87.655376
         },
         {
-          uniqueLocation: "Giordanos",
+          name: "Giordanos",
           description: "Plenty of Deep Dish Pizzas in Chicago, but this is the best. Plenty of locations, but if you don't eat deep dish pizza while you are here, you need to leave Chicago immediately.",
           lat: 41.939996,
           lng: -87.655684
@@ -165,13 +165,13 @@ constructor(props){
           lng: -89.381521
         },
         {
-          place: "Camp Randall Stadium",
+          name: "Camp Randall Stadium",
           description: "This is the place to watch a game. Wisconsin loves their football already with the Packers and get the college equivalent of that devotion here!",
           lat: 43.069846,
           lng: -89.412651
         },
         {
-          uniqueLocation: "Majestic Theatre",
+          name: "Majestic Theatre",
           description: "This is an incredible place to check out. Go see a show. Madison is a magical place and this si the place to be.",
           lat: 43.074454,
           lng: -89.380948
@@ -199,13 +199,13 @@ constructor(props){
           lng: -77.856962
         },
         {
-          place: "Beaver Stadium",
+          name: "Beaver Stadium",
           description: "Penn State Football. Enough said. If you are seeing a game here, hit a night game and be a part of a crazy white out.",
           lat: 40.812228,
           lng: -77.856092
         },
         {
-          uniqueLocation: "Penn State Golf Course",
+          name: "Penn State Golf Course",
           description: "Not a ton to do at Penn State, so pick up golfing and you'll have at least a way to help pass the time while you are here!",
           lat: 40.789880,
           lng: -77.876661
@@ -233,13 +233,13 @@ constructor(props){
           lng: -88.241974
         },
         {
-          place: "State Farm Center",
+          name: "State Farm Center",
           description: "Illinois Basketball. The Fighting Illini never stop.",
           lat: 40.096247,
           lng: -88.235976
         },
         {
-          uniqueLocation: "Sakanaya Restaurant",
+          name: "Sakanaya Restaurant",
           description: "Sushi, Ramen and Japanese entrees. Can't miss for Champaign.",
           lat: 40.110148,
           lng: -88.233069
@@ -267,13 +267,13 @@ constructor(props){
           lng: -93.227512
         },
         {
-          place: "Mariucci Arena",
+          name: "Mariucci Arena",
           description: "Minnesota. This is the closest thing you'll get to experience what hockey in ",
           lat: 44.978112,
           lng: -93.227994
         },
         {
-          uniqueLocation: "D'Amico & Sons",
+          name: "D'Amico & Sons",
           description: "Deli chain selling Italian sandwiches plus pasta, grilled fare and wines. 5 stars.",
           lat: 44.975000,
           lng: -93.228306
@@ -301,13 +301,13 @@ constructor(props){
           lng: -96.709772
         },
         {
-          place: "Memorial Stadium",
+          name: "Memorial Stadium",
           description: "Nebraska. Known for football and corn. You'll inevitably see corn in Nebraska so you might as well catch yourself a game as well.",
           lat: 40.820603,
           lng: -96.704118
         },
         {
-          uniqueLocation: "Single Barrel",
+          name: "Single Barrel",
           description: "Get comfortable. This is Lincoln's steak bar. Live music with whiskey and craft beer while you experience what meat means.",
           lat: 40.814456,
           lng: -96.706585
@@ -335,13 +335,13 @@ constructor(props){
           lng: -91.533358
         },
         {
-          place: "Kinnick Stadium",
+          name: "Kinnick Stadium",
           description: "If you are in Iowa, get yourself to a game! It'll be a blast.",
           lat: 41.658556,
           lng: -91.551094
         },
         {
-          uniqueLocation: "Teddys Bigger Burgers",
+          name: "Teddys Bigger Burgers",
           description: "Never go small. Stay big, eat big, be big: At Teddys!",
           lat: 41.660346,
           lng: -91.530537
@@ -369,13 +369,13 @@ constructor(props){
           lng: -76.937558
         },
         {
-          place: "XFINITY Center",
+          name: "XFINITY Center",
           description: "Maryland Basketball is 100% worth checking out. Get yourself to an ACC/Big Ten Conference game and you will not be disappointed.",
           lat: 38.995462,
           lng: -76.941535
         },
         {
-          uniqueLocation: "The Board and Brew",
+          name: "The Board and Brew",
           description: "Unique hangout offering cafe fare, espresso and craft beer, plus trivia nights and over 500 board games.",
           lat: 38.991625,
           lng: -76.933853
@@ -403,13 +403,13 @@ constructor(props){
           lng: -74.449191
         },
         {
-          place: "Zimmerli Art Museum",
+          name: "Zimmerli Art Museum",
           description: "Watching sports at Rutgers is a terrible idea. Waste of time, so go check out the Zimmerli Art Museum. It has over 60,000 objects of ancient and modern art from around the world.",
           lat: 40.499999,
           lng: -74.445980
         },
         {
-          uniqueLocation: "Stuff Yer Face",
+          name: "Stuff Yer Face",
           description: "Hungry? I hope so, because their motto is in their title. Stuff Yer Face!",
           lat: 40.498073,
           lng: -74.448942
@@ -437,13 +437,13 @@ constructor(props){
           lng: -86.909012
         },
         {
-          place: "Mackey Arena",
+          name: "Mackey Arena",
           description: "Purdue's Men and Women's Basketball teams play here. Not much else is happening, so go see a basketball game.",
           lat: 40.433287,
           lng: -86.916111
         },
         {
-          uniqueLocation: "Scotty's Brewhouse",
+          name: "Scotty's Brewhouse",
           description: "Scotty's is a small chain that has really good food and a great beer selection. One of the few local restaurants hanging on in West Lafayette.",
           lat: 40.420806,
           lng: -86.900146
@@ -471,13 +471,13 @@ constructor(props){
           lng: -86.529028
         },
         {
-          place: "Assembly Hall",
+          name: "Assembly Hall",
           description: "Be a part of history. Indiana Basketball and the Hoosiers are famous for a reason. Maybe the best place to catch a game unless you are a Duke fan, which - - if that's the case, you are useless to society.",
           lat: 39.180849,
           lng: -86.522122
         },
         {
-          uniqueLocation: "Restaurant Tallent",
+          name: "Restaurant Tallent",
           description: "Are you a grown adult and not looking for the college place to eat? Check this place out! Farm to Table! A rariety in the Midwest.",
           lat: 39.168000,
           lng: -86.533363
