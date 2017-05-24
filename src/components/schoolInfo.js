@@ -1,6 +1,7 @@
 import React from 'react';
 import GoogleMaps from './Map';
 import styles from './SchoolList.css';
+import {Link} from 'react-router-dom';
 
 class SchoolInfo extends React.Component {
 
@@ -113,9 +114,11 @@ render() {
           <GoogleMaps lat={this.state.latitude} lng={this.state.longitude} content={this.state.locations.places} icon={this.state.image}/>
         </div>
       </div>
+      <Link to="/">
       <footer>
         <img src={this.state.image} alt={this.state.id} className={styles.imageSchool} />
       </footer>
+      </Link>
     </div>
   )
   }
