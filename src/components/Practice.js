@@ -1,7 +1,8 @@
 import React from 'react';
 import {Switch, Route, Link} from 'react-router-dom';
 import styles from './SchoolList.css';
-class Practice extends React.Component {
+
+class SchoolList extends React.Component {
   constructor(props){
     super(props);
     console.log(props);
@@ -34,4 +35,4 @@ create2List(props) {
 }
 }
 
-export default Practice;
+export default SchoolList;

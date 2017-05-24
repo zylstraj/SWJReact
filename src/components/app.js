@@ -1,6 +1,6 @@
 import React from 'react';
 import {Switch, Route, Link} from 'react-router-dom';
-import Practice from './Practice';
+import SchoolList from './Practice';
 import SchoolInfo from './schoolInfo';
 import GoogleMaps from './Map';
 
@@ -491,7 +491,7 @@ constructor(props){
 render() {
   const mySchools = (props) => {
     return (
-      <Practice school = {this.state.school}
+      <SchoolList school = {this.state.school}
       {...props}
       />
     );
@@ -515,7 +515,7 @@ render() {
       <Route path={this.state.school.id} render={specificSchool} />
       // <Route path='/OhioState' component={SchoolInfo} />
       // <Route path='/MichiganState' component={SchoolInfo} />
-      <Route path='/fun' component={Practice} />
+      
       </Switch>
       </div>
   )
