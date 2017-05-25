@@ -94,11 +94,15 @@ constructor(props){
 
 render() {
   return (
-    <div data-school={this.state.id}>
+    <div data-school={this.state.id} className={styles.div_container_schoolInfo}>
       <div className={styles.div_main_header}>
         <img src={this.state.image} alt={this.state.id} className={styles.schoolImage_header} />
         <h1><Link to="/">Home</Link></h1>
         <img src={this.state.mainImage} alt="Michigan Stadium" className={styles.div_header_image} />
+      </div>
+      <div className={styles.googleDiv}>
+        <h1>Things To Do & Where To Go</h1>
+        <GoogleMaps lat={this.state.latitude} lng={this.state.longitude} content={this.state.locations.places} icon={this.state.image}/>
       </div>
       <div className={styles.div_main_content}>
         <div className={styles.div_content_One}>

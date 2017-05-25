@@ -25,6 +25,8 @@ module.exports = {
           localIdentName: '[name]-[local]-[hash:base64:5]',
           camelCase: true
         }
+      }, {
+        loader: 'resolve-url-loader'
       }]
     } , {
       test: /\.(jpe?g|png|gif|svg)$/i,
