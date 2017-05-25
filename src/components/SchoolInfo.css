@@ -66,8 +66,8 @@ div[data-school] {
   /*font-family: 'Raleway', sans-serif;*/
 }
 div[data-school="michigan"] {
-  /*background-color:  #041E42;*/
-  color: #FFC72C;
+  color:  #041E42;
+  /*background-color: #FFC72C;*/
 }
 div[data-school="ohiostate"] {
   color: #bb0000;
@@ -106,6 +106,9 @@ div[data-school="minnesota"] {
 div[data-school="minnesota"] h2 {
   /*background-color: #FFCD00;*/
   color: #7A0019;
+}
+div[data-school] p {
+  color: black;
 }
 div[data-school="nebraska"] {
   color: #D00000;
