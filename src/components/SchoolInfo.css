@@ -53,6 +53,7 @@ ul li {
 }
 footer {
   text-align: center;
+  clear: both;
 }
 footer .imageSchool {
   height: 100px;
