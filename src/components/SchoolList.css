@@ -16,6 +16,69 @@
 .imageSchool:hover {
   opacity: .5;
 }
+div[data-title="michigan"] {
+  color:  #041E42;
+  /*background-color: #FFC72C;*/
+}
+div[data-title="ohiostate"] {
+  color: #bb0000;
+}
+div[data-title="wisconsin"] {
+  color: #c5050c;
+}
+
+div[data-title="michiganstate"], div[data-title="michiganstate"] a, div[data-title="michiganstate"] a:visited {
+  color: #19453B;
+  text-decoration: none;
+}
+div[data-title="northwestern"], div[data-title="northwestern"] a, div[data-title="northwestern"] a:visited {
+  color: #4E2A84;
+  text-decoration: none;
+}
+
+div[data-title="pennstate"] {
+  color: #1E407C;
+  background-color: #FFFFFF;
+}
+div[data-title="illinois"] {
+  /*background-color: #131F33;*/
+  color: #FA6300;
+}
+div[data-title="minnesota"] {
+  /*background-color: #FFCD00;*/
+  color: #7A0019;
+}
+div[data-title="minnesota"] h2 {
+  /*background-color: #FFCD00;*/
+  color: #7A0019;
+}
+div[data-title] p {
+  color: black;
+}
+div[data-title="nebraska"] {
+  color: #D00000;
+  /*background-color: #FEFDFA;*/
+}
+div[data-title="iowa"] {
+  color: #000000;
+  /*background-color: #FFCD00;*/
+}
+div[data-title="maryland"] {
+  color: #ff0000;
+  /*background-color: #ffcc00;*/
+}
+div[data-title="rutgers"] {
+  color: #cc0033;
+  /*background-color: #5f6a72;*/
+}
+div[data-title="purdue"] {
+  color: #C28E0E;
+  /*background-color: #000000;*/
+}
+div[data-title="indiana"] {
+  color: #990000;
+  /*background-color: #EEEDEB;*/
+}
 @media (min-width: 550px) {
 .schoolName {
   float: left;
