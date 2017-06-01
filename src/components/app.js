@@ -39,6 +39,30 @@ constructor(props){
           description: "This is an incredible place to check out",
           lat: 42.284588,
           lng: -83.74478
+        },
+        {
+          name: "Nichols Arboretum",
+          description: "Being stuck inside is the worst and it wears on you. This is one of the few spots to sneak outside in Ann Arbor and kind of lose yourself. Ideal place to be in the spring or fall, but go get your butt outside here.",
+          lat: 42.279883,
+          lng: -83.721616
+        },
+        {
+          name: "Afternoon Delight",
+          description: "One of the best places to have brunch in Ann Arbor. Delicious and just fantastic atmosphere.",
+          lat: 42.279569,
+          lng: -83.746261
+        },
+        {
+          name: "NYPD",
+          description: "This is your spot for late night pizza. Obviously there are cheaper options, but if you are looking for some amazing pizza while tipsy, this is your spot.",
+          lat: 42.277927,
+          lng: -83.741721
+        },
+        {
+          name: "Yost Ice Arena",
+          description: "If you get a chance, see a hockey game here! There might not be a more fun sport event at the University of Michigan.",
+          lat: 42.267669,
+          lng: -83.740987
         }
       ]
     }
@@ -64,7 +88,7 @@ constructor(props){
         },
         {
           name: "Ohio Stadium",
-          description: "This place is known as the horshoe, or to everyone else - - this is where a bunch of idiots gather a few times every fall",
+          description: "This place is known as the horshoe, or to everyone else - - this is where a bunch of idiots gather a few times every fall.",
           lat: 40.001647,
           lng: -83.019682
         },
@@ -107,6 +131,24 @@ constructor(props){
           description: "Grimey, dirty and a place to dance your heart out in this barrne",
           lat: 42.735809,
           lng: -84.483513
+        },
+        {
+          name: "Michigan Flyer",
+          description: "This is a great place to get on a bus and get out of East Lansing. Once you've realized the mistake of visiting here, this is your quickest way out of town.",
+          lat: 42.735658,
+          lng: -84.479947
+        },
+        {
+          name: "Crunchy's",
+          description: "Come here for a hole in the wall bar and you will have yourself a great time.",
+          lat: 42.736430,
+          lng: -84.487146
+        },
+        {
+          name: "Tennis Courts",
+          description: "If you find yourself here on a Saturday morning, come down this way, join the party and have some beers! All of campus is open-intox: so be safe and have fun!",
+          lat: 42.723807,
+          lng: -84.485606
         }
       ]
     }
@@ -141,6 +183,24 @@ constructor(props){
           description: "Plenty of Deep Dish Pizzas in Chicago, but this is the best. Plenty of locations, but if you don't eat deep dish pizza while you are here, you need to leave Chicago immediately.",
           lat: 41.939996,
           lng: -87.655684
+        },
+        {
+          name: "The Bean.",
+          description: "Go check out the Bean in Millenium Park. You will love it.",
+          lat: 41.882641,
+          lng: -87.623229
+        },
+        {
+          name: "North Avenue Beach",
+          description: "Go on a run, walk the beach, grab a longboard. That choice is yours, but a beautiful place to get outside and simply relax in Chicago.",
+          lat: 41.914744,
+          lng: -87.625257
+        },
+        {
+          name: "Second City",
+          description: "Go see a show here. Second City has produced some of the best talent in comedy today. See the future before it arrives.",
+          lat: 41.911598,
+          lng: -87.634901
         }
       ]
     }
@@ -175,6 +235,24 @@ constructor(props){
           description: "This is an incredible place to check out. Go see a show. Madison is a magical place and this si the place to be.",
           lat: 43.074454,
           lng: -89.380948
+        },
+        {
+          name: "Brasserie V",
+          description: "Elevated throwback offering locally sourced, seasonal French eats & many Belgian beers. Check it out.",
+          lat: 43.064107,
+          lng: -89.418126
+        },
+        {
+          name: "Greenbush Bakery",
+          description: "Get your donuts here. Open late and so-so good.",
+          lat: 43.067430,
+          lng: -89.407729
+        },
+        {
+          name: "Mediterranean Cafe",
+          description: "Casual, compact cafe serving hummus, falafel & other Mediterranean fare at lunch. Delicious.",
+          lat: 43.074776,
+          lng: -89.396417
         }
       ]
     }

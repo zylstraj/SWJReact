@@ -13,7 +13,8 @@ create2List(props) {
   return this.props.school.map((school) => {
     return(
       <div key={school.title}
-      className={styles.schoolName}>
+      className={styles.schoolName}
+      data-title={school.id}>
       <Link to={school.id}>
       <img src={school.image} alt={school.title} className={styles.imageSchool} />
       <h1>{school.title}</h1>

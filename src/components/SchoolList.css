@@ -16,6 +16,69 @@
 .imageSchool:hover {
   opacity: .5;
 }
+div[data-title] a {
+  text-decoration: none;
+}
+div[data-title] p {
+  color: black;
+}
+div[data-title="michigan"], div[data-title="michigan"] a, div[data-title="michigan"] a:visited {
+  color:  #041E42;
+  /*background-color: #FFC72C;*/
+}
+div[data-title="ohiostate"], div[data-title="ohiostate"] a, div[data-title="ohiostate"] a:visited {
+  color: #bb0000;
+}
+div[data-title="wisconsin"], div[data-title="wisconsin"] a, div[data-title="wisconsin"] a:visited {
+  color: #c5050c;
+}
+
+div[data-title="michiganstate"], div[data-title="michiganstate"] a, div[data-title="michiganstate"] a:visited {
+  color: #19453B;
+}
+div[data-title="northwestern"], div[data-title="northwestern"] a, div[data-title="northwestern"] a:visited {
+  color: #4E2A84;
+}
+
+div[data-title="pennstate"], div[data-title="pennstate"] a, div[data-title="pennstate"] a:visited {
+  color: #1E407C;
+}
+div[data-title="illinois"], div[data-title="illinois"] a div[data-title="illinois"] a:visited  {
+  /*background-color: #131F33;*/
+  color: #FA6300;
+}
+div[data-title="minnesota"], div[data-title="minnesota"] a, div[data-title="minnesota"] a:visited {
+  /*background-color: #FFCD00;*/
+  color: #7A0019;
+}
+div[data-title="minnesota"] h2 {
+  /*background-color: #FFCD00;*/
+  color: #7A0019;
+}
+div[data-title="nebraska"], div[data-title="nebraska"] a, div[data-title="nebraska"] a:visited {
+  color: #D00000;
+  /*background-color: #FEFDFA;*/
+}
+div[data-title="iowa"], div[data-title="iowa"] a, div[data-title="iowa"] a:visited {
+  color: #000000;
+  /*background-color: #FFCD00;*/
+}
+div[data-title="maryland"], div[data-title="maryland"] a, div[data-title="maryland"] a:visited {
+  color: #ff0000;
+  /*background-color: #ffcc00;*/
+}
+div[data-title="rutgers"], div[data-title="rutgers"] a, div[data-title="rutgers"] a:visited {
+  color: #cc0033;
+  /*background-color: #5f6a72;*/
+}
+div[data-title="purdue"], div[data-title="purdue"] a, div[data-title="purdue"] a:visited {
+  color: #C28E0E;
+  /*background-color: #000000;*/
+}
+div[data-title="indiana"], div[data-title="indiana"] a, div[data-title="indiana"] a:visited {
+  color: #990000;
+  /*background-color: #EEEDEB;*/
+}
 @media (min-width: 550px) {
 .schoolName {
   float: left;

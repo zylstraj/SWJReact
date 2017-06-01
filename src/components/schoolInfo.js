@@ -113,16 +113,13 @@ render() {
           <p>Location: {this.state.location}</p>
           <p>Enrollment: {this.state.enrollment}</p>
         </div>
-        <div className={styles.googleDiv}>
-          <h1>Things To Do & Where To Go</h1>
-          <GoogleMaps lat={this.state.latitude} lng={this.state.longitude} content={this.state.locations.places} icon={this.state.image}/>
-        </div>
+
       </div>
+        <img src={this.state.mainImage} alt="Michigan Stadium" className={styles.div_header_image} />
       <Link to="/">
       <footer>
         <img src={this.state.image} alt={this.state.id} className={styles.imageSchool} />
       </footer>
-        <img src={this.state.mainImage} alt="Michigan Stadium" className={styles.div_header_image} />
       </Link>
     </div>
   )

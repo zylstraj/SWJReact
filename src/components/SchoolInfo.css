@@ -137,6 +137,12 @@ div[data-school="indiana"] {
 .schoolImage_header ~ h1 {
   display: none;
 }
+
+
+
+
+
+
 @media (min-width: 550px) {
 .mapGames {
   width: 80%;
@@ -157,6 +163,10 @@ div[data-school="indiana"] {
   float: right;
 }
 }
+
+
+
+
 @media (min-width: 961px) {
   .schoolName {
     width: 33%;
@@ -188,6 +198,12 @@ div[data-school="indiana"] {
     width: 100%;
   }
 }
+
+
+
+
+
+
 @media (min-width: 1200px) {
     .div_header_image {
       height: 400px;
