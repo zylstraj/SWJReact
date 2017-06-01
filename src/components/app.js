@@ -207,8 +207,8 @@ constructor(props){
     },
     {
       title: "Wisconsin",
-      description: "University of Michigan has a unique history",
-      content: "This is the paragraph about my story and the article ad",
+      description: "University of Wisconsin in Madison",
+      content: "The University of Wisconsin–Madison (also known as University of Wisconsin, Wisconsin, UW, or regionally as UW–Madison, or simply Madison) is a public research university in Madison, Wisconsin, United States. Founded when Wisconsin achieved statehood in 1848, UW–Madison is the official state university of Wisconsin, and the flagship campus of the University of Wisconsin System.",
       image: "./wisconsin.gif",
       mainImage: "./wisconsinstadium.jpg",
       enrollment: "43,338",
@@ -327,8 +327,8 @@ constructor(props){
     },
     {
       title: "Minnesota",
-      description: "Chi-town's finest",
-      content: "Evanston is a great place to raise a family, attend school, and if you want to party well... Chicago has everything you would ever want",
+      description: "University of Minnesota",
+      content: "The University of Minnesota, Twin Cities (often referred to as The University of Minnesota, Minnesota, the U of M, UMN, or simply the U) is a public research university in Minneapolis and Saint Paul, Minnesota. The Minneapolis and St. Paul campuses are approximately 3 miles (4.8 km) apart, and the Saint Paul campus is actually in neighboring Falcon Heights.[7] It is the oldest and largest campus within the University of Minnesota system and has the sixth-largest main campus student body in the United States, with 51,147 students in 2013–14.",
       image: "./minnesota.jpg",
       enrollment: "51,147",
       mainImage: "./bighouse.jpg",
@@ -361,8 +361,8 @@ constructor(props){
     },
     {
       title: "Nebraska",
-      description: "University of Michigan has a unique history",
-      content: "This is the paragraph about my story and the article ad",
+      description: "University of Nebraska-Lincoln",
+      content: "The University of Nebraska–Lincoln, often referred to as Nebraska, UNL or NU, is a public research university in the city of Lincoln, in the state of Nebraska in the Midwestern United States.[6] It is the state's oldest university, and the largest in the University of Nebraska system. Its athletic program, called the Cornhuskers, is a member of the Big Ten Conference. The Nebraska football team has won 46 conference championships, and since 1970, five national championships.",
       image: "./nebraska.png",
       enrollment: "25,897",
       mainImage: "./bighouse.jpg",
@@ -395,7 +395,7 @@ constructor(props){
     },
     {
       title: "Iowa",
-      description: "Shit State",
+      description: "University of Iowa",
       content: "Easily the worst school in the Big 10. Universally disliked.",
       image: "./iowa.jpg",
       enrollment: "33,334",
