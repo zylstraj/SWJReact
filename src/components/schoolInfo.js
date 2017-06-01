@@ -105,7 +105,7 @@ render() {
       </div>
       <div className={styles.div_main_content}>
         <div className={styles.div_content_One}>
-          <img src={this.state.mainImage} alt="Michigan Stadium" className={styles.div_header_image} />
+          <img src={this.state.Image} alt="Michigan Stadium" className={styles.div_header_image} />
           <h2>{this.state.description}</h2>
           <p>{this.state.content}</p>
         </div>

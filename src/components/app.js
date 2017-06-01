@@ -331,7 +331,7 @@ constructor(props){
       content: "The University of Minnesota, Twin Cities (often referred to as The University of Minnesota, Minnesota, the U of M, UMN, or simply the U) is a public research university in Minneapolis and Saint Paul, Minnesota. The Minneapolis and St. Paul campuses are approximately 3 miles (4.8 km) apart, and the Saint Paul campus is actually in neighboring Falcon Heights.[7] It is the oldest and largest campus within the University of Minnesota system and has the sixth-largest main campus student body in the United States, with 51,147 students in 2013–14.",
       image: "./minnesota.jpg",
       enrollment: "51,147",
-      mainImage: "./bighouse.jpg",
+      mainImage: "./minnesotaCampus.jpg",
       location: "Minneapolis, MN",
       id: "minnesota",
       latitude: 44.9740,
