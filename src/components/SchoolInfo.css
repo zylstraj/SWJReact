@@ -69,72 +69,64 @@ div[data-school] {
   padding: 0;
   /*font-family: 'Raleway', sans-serif;*/
 }
-div[data-school="michigan"] {
+div[data-school] a {
+  text-decoration: none;
+}
+div[data-school="michigan"], div[data-school="michigan"] a, div[data-school="michigan"] a:visited {
   color:  #041E42;
   /*background-color: #FFC72C;*/
 }
-div[data-school="ohiostate"] {
+div[data-school="ohiostate"], div[data-school="ohiostate"] a, div[data-school="ohiostate"] a:visited {
   color: #bb0000;
-  background-color: #666666;
+  /*background-color: #666666;*/
 }
-div[data-school="wisconsin"] {
+div[data-school="wisconsin"], div[data-school="wisconsin"] a, div[data-school="wisconsin"] a:visited {
   color: #c5050c;
-  background-color: #f7f7f7;
+  /*background-color: #f7f7f7;*/
 }
 
-div[data-school="michiganstate"] {
+div[data-school="michiganstate"], div[data-school="michiganstate"] a, div[data-school="michiganstate"] a:visited {
   color: #19453B;
 }
-div[data-school="michiganstate"] a {
-  color: #19453B;
-  text-decoration: none;
-}
-div[data-school="michiganstate"] a:visited {
-  color: #19453B;
-}
-div[data-school="northwestern"] {
+div[data-school="northwestern"], div[data-school="northwestern"] a, div[data-school="northwestern"] a:visited {
   color: #4E2A84;
 }
-div[data-school="pennstate"] {
+div[data-school="pennstate"], div[data-school="pennstate"] a, div[data-school="pennstate"] a:visited {
   color: #1E407C;
-  background-color: #FFFFFF;
+  /*background-color: #FFFFFF;*/
 }
-div[data-school="illinois"] {
+div[data-school="illinois"], div[data-school="illinois"] a, div[data-school="illinois"] a:visited {
   /*background-color: #131F33;*/
   color: #FA6300;
 }
-div[data-school="minnesota"] {
-  /*background-color: #FFCD00;*/
-  color: #7A0019;
-}
-div[data-school="minnesota"] h2 {
+div[data-school="minnesota"], div[data-school="minnesota"] a, div[data-school="minnesota"] a:visited {
   /*background-color: #FFCD00;*/
   color: #7A0019;
 }
 div[data-school] p {
   color: black;
 }
-div[data-school="nebraska"] {
+div[data-school="nebraska"], div[data-school="nebraska"] a, div[data-school="nebraska"] a:visited {
   color: #D00000;
-  background-color: #FEFDFA;
+  /*background-color: #FEFDFA;*/
 }
-div[data-school="iowa"] {
+div[data-school="iowa"], div[data-school="iowa"] a, div[data-school="iowa"] a:visited {
   color: #000000;
   /*background-color: #FFCD00;*/
 }
-div[data-school="maryland"] {
+div[data-school="maryland"], div[data-school="maryland"] a, div[data-school="maryland"] a:visited {
   color: #ff0000;
   /*background-color: #ffcc00;*/
 }
-div[data-school="rutgers"] {
+div[data-school="rutgers"], div[data-school="rutgers"] a, div[data-school="rutgers"] a:visited {
   color: #cc0033;
   /*background-color: #5f6a72;*/
 }
-div[data-school="purdue"] {
+div[data-school="purdue"], div[data-school="purdue"] a, div[data-school="purdue"] a:visited {
   color: #C28E0E;
   /*background-color: #000000;*/
 }
-div[data-school="indiana"] {
+div[data-school="indiana"], div[data-school="indiana"] a, div[data-school="indiana"] a:visited {
   color: #990000;
   /*background-color: #EEEDEB;*/
 }
