@@ -105,10 +105,12 @@ render() {
       </div>
       <div className={styles.div_main_content}>
         <div className={styles.div_content_One}>
+          <img src={this.state.campusImage} alt="Place on Campus" className={styles.div_header_image} />
           <h2>{this.state.description}</h2>
           <p>{this.state.content}</p>
         </div>
         <div className={styles.div_content_Two}>
+          <img src={this.state.mainImage} alt="Place on Campus" className={styles.div_header_image} />
           <h1>School Information</h1>
           <p>Location: {this.state.location}</p>
           <p>Enrollment: {this.state.enrollment}</p>
