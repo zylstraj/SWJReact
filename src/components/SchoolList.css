@@ -16,6 +16,9 @@
 .imageSchool:hover {
   opacity: .5;
 }
+div[data-title] {
+  font-family: 'Bubbler One', sans-serif;
+}
 div[data-title] a {
   text-decoration: none;
 }
