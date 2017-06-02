@@ -21,7 +21,7 @@ ul li {
 
 .mapGames {
   height: 500px;
-  width: 90%;
+  width: 100%;
   margin: 0 auto
 }
 /*.mapGames p {
@@ -38,8 +38,8 @@ ul li {
   text-align: center;
 }
 .div_header_image {
-  height: 250px;
-  width: 80%;
+  height: 200px;
+  width: 90%;
   margin: 0 auto;
   margin-top: 2em;
   overflow: hidden;
@@ -154,11 +154,13 @@ div[data-school="indiana"], div[data-school="indiana"] a, div[data-school="india
 @media (min-width: 550px) {
 .mapGames {
   width: 80%;
+  margin: 0 auto;
 }
 
  /*Div Header */
 .div_header_image {
   width: 60%;
+  height: 250px;
 }
 .schoolImage_header {
   float: left;
