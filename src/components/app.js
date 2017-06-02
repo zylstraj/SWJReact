@@ -13,7 +13,7 @@ constructor(props){
       title: "Michigan",
       description: "University of Michigan",
       content: "The University of Michigan is the gold standard of the Big Ten. Known for it's excellent academics and incredible sport teams, this is the University to attend if you want that perfect mix of Ivy School Academics and big-time college sports. Ann Arbor is the perfect college town and every moment spent here, you will cherish forever.",
-      image: "./michigan.jpg",
+      image: "./Michigan.jpg",
       mainImage: "./uofmFootball.jpg",
       campusImage: "./uofmCampus.jpg",
       enrollment: "44,718",
