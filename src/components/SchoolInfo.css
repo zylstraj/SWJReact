@@ -213,7 +213,7 @@ div[data-school="indiana"], div[data-school="indiana"] a, div[data-school="india
 
 
 @media (min-width: 1200px) {
-    .div_header_image {
+    /*.div_header_image {
       height: 300px;
-    }
+    }*/
 }
