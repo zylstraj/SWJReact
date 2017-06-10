@@ -1,11 +1,9 @@
 import React from 'react';
 import styles from './SchoolInfo.css';
-// import { withGoogleMap, Loader, GoogleMap, Marker } from 'react-google-maps';
 
 class GoogleMaps extends React.Component {
   constructor(props){
       super(props);
-      console.log(props);
   }
   shouldComponentUpdate() {
     return false;
@@ -32,7 +30,7 @@ var bounds = new google.maps.LatLngBounds();
 var markers = this.props.content;
 
 var infoWindow = new google.maps.InfoWindow(), marker, i;
-//     console.log(differentPlaces.lat)
+
 // Loop for Markers using Google Maps
 for(var i=0; i < markers.length; i++) {
     var position = new google.maps.LatLng(markers[i].lat, markers[i].lng);

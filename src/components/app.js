@@ -580,33 +580,31 @@ constructor(props){
   ]
 }
 }
-render() {
-  const mySchools = (props) => {
-    return (
-      <SchoolList school = {this.state.school}
-      {...props}
-      />
-    );
-  }
-  const specificSchool = (props) => {
-    return (
-      <SchoolInfo specific= {this.state.school}
-      {...props}
-      />
-    );
-  }
-
+  render() {
+    const mySchools = (props) => {
+      return (
+        <SchoolList school = {this.state.school}
+        {...props}
+        />
+      );
+    }
+    const specificSchool = (props) => {
+      return (
+        <SchoolInfo specific= {this.state.school}
+        {...props}
+        />
+      );
+    }
     const extraProps = { school: [this.state.school] }
-    
-  return(
+
+    return(
       <div>
-      <Switch>
-      <Route exact path='/' render={mySchools} />
-)}/>
-      <Route path={this.state.school.id} render={specificSchool} />
-      </Switch>
+        <Switch>
+          <Route exact path='/' render={mySchools} />
+          <Route path={this.state.school.id} render={specificSchool} />
+        </Switch>
       </div>
-  )
-}
+    )
+  }
 }
 export default App;

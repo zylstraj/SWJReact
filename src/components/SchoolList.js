@@ -6,11 +6,9 @@ import PropTypes from 'prop-types';
 class SchoolList extends React.Component {
   constructor(props){
     super(props);
-    console.log(props);
 
 }
 create2List(props) {
-  console.log(this.props);
   return this.props.school.map((school) => {
     return(
       <div key={school.title}

@@ -5,10 +5,8 @@ import {Link} from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 class SchoolInfo extends React.Component {
-
 constructor(props){
     super(props);
-    console.log(props);
     if(this.props.location.pathname == "/michigan") {
       this.state = this.props.specific[0];
     }
