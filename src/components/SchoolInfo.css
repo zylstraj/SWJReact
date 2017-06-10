@@ -2,6 +2,11 @@
 body {
   font-family: 'Bubbler One', sans-serif;
 }
+ul li {
+  list-style-type: none;
+}
+
+/* Image Sizing */
 .imageSchool {
   height: 200px;
   width: 200px;
@@ -15,27 +20,36 @@ body {
   width: 80%;
   height: 400px;
 }
-ul li {
-  list-style-type: none;
-}
+/* Header : Floating image and Home for Site Navigation on mobile */
 
+    /* Main container for header .div_main_header */
+.div_main_header {
+  text-align: center;
+}
+.schoolImage_header {
+  float: left;
+  margin: 1em 0 0 2%;
+}
+.schoolImage_header ~ h1 {
+  display: block;
+  width: 35%;
+  float: right;
+}
+/* Google Maps <div> Setting mobile */
 .mapGames {
   height: 500px;
   width: 100%;
   margin: 0 auto
 }
-/*.mapGames p {
-  color: blue;
+.googleDiv {
+  clear: both;
+  text-align: center;
 }
-.mapGames h2 {
-  color: red;
-}*/
+
+/* Main content : 2 Primary Divs: _content_One and _content_Two */
 .div_content_One, .div_content_Two {
   text-align: center;
   width: 100%;
-}
-.div_main_header {
-  text-align: center;
 }
 .div_header_image {
   height: 200px;
@@ -50,22 +64,8 @@ ul li {
 .div_main_specific {
   clear: both;
 }
-.googleDiv {
-  clear: both;
-  text-align: center;
-}
-footer {
-  text-align: center;
-  clear: both;
-}
-footer .imageSchool {
-  height: 100px;
-  width: 100px;
-  margin: 1em 0;
-}
-footer .imageSchool:hover {
-  opacity: .5;
-}
+
+/* All the specific school colors. Setting as <div> and have colors inherit down */
 div[data-school] {
   border-radius: 50px;
   margin: 0;
@@ -134,60 +134,46 @@ div[data-school="indiana"], div[data-school="indiana"] a, div[data-school="india
   color: #990000;
   /*background-color: #EEEDEB;*/
 }
-/*.schoolImage_header ~ h1 {
-  display: none;
-}*/
-.schoolImage_header {
-  float: left;
-  margin: 1em 0 0 2%;
+
+/* Footer : Reusing School Logo. Changing size and center */
+footer {
+  text-align: center;
+  clear: both;
 }
-.schoolImage_header ~ h1 {
-  display: block;
-  width: 35%;
-  float: right;
+footer .imageSchool {
+  height: 100px;
+  width: 100px;
+  margin: 1em 0;
+}
+footer .imageSchool:hover {
+  opacity: .5;
 }
 
-
-
-
+/* Responsive : Starting to hit Tablet Sizes */
 
 @media (min-width: 550px) {
+  /* Google Maps Div */
 .mapGames {
   width: 80%;
   margin: 0 auto;
 }
 
- /*Div Header */
+ /*Div Header: Used within 2 main content sections */
 .div_header_image {
   width: 60%;
   height: 250px;
 }
-.schoolImage_header {
-  float: left;
-  margin: 1em 0 0 2%;
-}
-.schoolImage_header ~ h1 {
-  display: block;
-  width: 35%;
-  float: right;
-}
 }
 
 
-
-
+/* Responsive Desktop Sizes */
 @media (min-width: 961px) {
-  .schoolName {
-    width: 33%;
-    float: left;
-    text-align: center;
-    margin-right: 0%;
+
+  /* Header : All the same except little more padding */
+  .schoolImage_header {
+    padding-left: 25px;
   }
-  /*.div_main_specific {
-    width: 45%;
-    float: left;
-    clear: right;
-  }*/
+  /* Main content sections _content_One and _content_Two - + image styling for div_header_image */
   .div_content_One {
     width: 45%;
     float: left;
@@ -196,12 +182,6 @@ div[data-school="indiana"], div[data-school="indiana"] a, div[data-school="india
     width: 45%;
     float: right;
   }
-  .schoolImage_header {
-    height: 50px;
-    width: 50px;
-    text-align: left;
-    padding-left: 25px;
-  }
   .div_header_image {
     height: 250px;
     width: 80%;
@@ -209,13 +189,6 @@ div[data-school="indiana"], div[data-school="indiana"] a, div[data-school="india
   }
 }
 
-
-
-
-
-
 @media (min-width: 1200px) {
-    /*.div_header_image {
-      height: 300px;
-    }*/
+  
 }
