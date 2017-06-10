@@ -28,7 +28,7 @@ create2List(props) {
   return (
     <div className={styles.listHeader}>
       <img src="./BigTen.png" alt="Big Ten" className={styles.imgHeader}/>
-      <div className={styles.listHeader}>
+      <div>
         {this.create2List()}
       </div>
     </div>

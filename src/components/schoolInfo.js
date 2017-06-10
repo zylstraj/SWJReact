@@ -11,59 +11,45 @@ constructor(props){
     console.log(props);
     if(this.props.location.pathname == "/michigan") {
       this.state = this.props.specific[0];
-      console.log(this.props.specific[0])
     }
     if(this.props.location.pathname == "/ohiostate") {
       this.state = this.props.specific[1];
-      console.log(this.props.specific[1]);
     }
     if(this.props.location.pathname == "/michiganstate") {
       this.state = this.props.specific[2];
-      console.log(this.props.specific[2]);
     }
     if(this.props.location.pathname == "/northwestern") {
       this.state = this.props.specific[3];
-      console.log(this.props.specific[3]);
     }
     if(this.props.location.pathname == "/wisconsin") {
       this.state = this.props.specific[4];
-      console.log(this.props.specific[4]);
     }
     if(this.props.location.pathname == "/pennstate") {
       this.state = this.props.specific[5];
-      console.log(this.props.specific[5]);
     }
     if(this.props.location.pathname == "/illinois") {
       this.state = this.props.specific[6];
-      console.log(this.props.specific[6]);
     }
     if(this.props.location.pathname == "/minnesota") {
       this.state = this.props.specific[7];
-      console.log(this.props.specific[7]);
     }
     if(this.props.location.pathname == "/nebraska") {
       this.state = this.props.specific[8];
-      console.log(this.props.specific[8]);
     }
     if(this.props.location.pathname == "/iowa") {
       this.state = this.props.specific[9];
-      console.log(this.props.specific[9]);
     }
     if(this.props.location.pathname == "/maryland") {
       this.state = this.props.specific[10];
-      console.log(this.props.specific[10]);
     }
     if(this.props.location.pathname == "/rutgers") {
       this.state = this.props.specific[11];
-      console.log(this.props.specific[11]);
     }
     if(this.props.location.pathname == "/purdue") {
       this.state = this.props.specific[12];
-      console.log(this.props.specific[12]);
     }
     if(this.props.location.pathname == "/indiana") {
       this.state = this.props.specific[13];
-      console.log(this.props.specific[13]);
     }
   }
 
