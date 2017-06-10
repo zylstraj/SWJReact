@@ -1,6 +1,7 @@
 import React from 'react';
 import {Switch, Route, Link} from 'react-router-dom';
 import styles from './SchoolList.css';
+import PropTypes from 'prop-types';
 
 class SchoolList extends React.Component {
   constructor(props){
