@@ -596,18 +596,14 @@ render() {
     );
   }
 
-  // console.log(this.state.school)
     const extraProps = { school: [this.state.school] }
-    // console.log(extraProps);
+    
   return(
       <div>
       <Switch>
       <Route exact path='/' render={mySchools} />
 )}/>
       <Route path={this.state.school.id} render={specificSchool} />
-      // <Route path='/OhioState' component={SchoolInfo} />
-      // <Route path='/MichiganState' component={SchoolInfo} />
-
       </Switch>
       </div>
   )

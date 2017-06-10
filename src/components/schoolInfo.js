@@ -2,6 +2,7 @@ import React from 'react';
 import GoogleMaps from './Map';
 import styles from './SchoolInfo.css';
 import {Link} from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 class SchoolInfo extends React.Component {
 
@@ -64,67 +65,44 @@ constructor(props){
       this.state = this.props.specific[13];
       console.log(this.props.specific[13]);
     }
-  //   const goodTimes = this.props.specific;
-  //   const variableTimes = this.props.location.pathname;
-  //   console.log(goodTimes);
-  //   goodTimes.forEach(function(element, index, array) {
-  //     console.log("/" + element.id);
-  //     const fun = element.id;
-  //     const yes = array[index];
-  //     console.log(variableTimes);
-  //     console.log(index);
-  //     console.log(array[index]);
-  //
-  //     if("/" + fun == variableTimes) {
-  //       this.state = yes;
-  //     }
-  //     else {
-  //       console.log("here we go")
-  //     }
-  // })
-      // if(this.props.location.pathname == element.id) {
-      //   console.log(element);
-      //   console.log(index);
-      //   this.state = this.props.specific[index];
-
-    // if(this.props.location.pathname == this.props.specific.id) {
-    //   this.state = this.props.specific;
-    // }
   }
 
-render() {
-  return (
-    <div data-school={this.state.id} className={styles.div_container_schoolInfo}>
-      <div className={styles.div_main_header}>
-        <img src={this.state.image} alt={this.state.id} className={styles.schoolImage_header} />
-        <h1><Link to="/">Home</Link></h1>
-      </div>
-      <div className={styles.googleDiv}>
-        <h1>Things To Do & Where To Go</h1>
-        <GoogleMaps lat={this.state.latitude} lng={this.state.longitude} content={this.state.locations.places} icon={this.state.image}/>
-      </div>
-      <div className={styles.div_main_content}>
-        <div className={styles.div_content_One}>
-          <img src={this.state.campusImage} alt="Place on Campus" className={styles.div_header_image} />
-          <h2>{this.state.description}</h2>
-          <p>{this.state.content}</p>
+  render() {
+    return (
+      <div data-school={this.state.id} className={styles.div_container_schoolInfo}>
+        <div className={styles.div_main_header}>
+          <img src={this.state.image} alt={this.state.id} className={styles.schoolImage_header} />
+          <h1><Link to="/">Home</Link></h1>
         </div>
-        <div className={styles.div_content_Two}>
-          <img src={this.state.mainImage} alt="Place on Campus" className={styles.div_header_image} />
-          <h1>School Information</h1>
-          <p>Location: {this.state.location}</p>
-          <p>Enrollment: {this.state.enrollment}</p>
+        <div className={styles.googleDiv}>
+          <h1>Things To Do & Where To Go</h1>
+          <GoogleMaps lat={this.state.latitude} lng={this.state.longitude} content={this.state.locations.places} icon={this.state.image}/>
         </div>
-
+        <div className={styles.div_main_content}>
+          <div className={styles.div_content_One}>
+            <img src={this.state.campusImage} alt="Place on Campus" className={styles.div_header_image} />
+            <h2>{this.state.description}</h2>
+            <p>{this.state.content}</p>
+          </div>
+          <div className={styles.div_content_Two}>
+            <img src={this.state.mainImage} alt="Place on Campus" className={styles.div_header_image} />
+            <h1>School Information</h1>
+            <p>Location: {this.state.location}</p>
+            <p>Enrollment: {this.state.enrollment}</p>
+          </div>
+        </div>
+        <Link to="/">
+          <footer>
+            <img src={this.state.image} alt={this.state.id} className={styles.imageSchool} />
+          </footer>
+        </Link>
       </div>
-      <Link to="/">
-      <footer>
-        <img src={this.state.image} alt={this.state.id} className={styles.imageSchool} />
-      </footer>
-      </Link>
-    </div>
-  )
+    )
   }
-  }
+}
 
-  export default SchoolInfo;
+SchoolInfo.propTypes = {
+    location: PropTypes.object
+}
+
+export default SchoolInfo;

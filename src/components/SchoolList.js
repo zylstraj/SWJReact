@@ -35,5 +35,7 @@ create2List(props) {
   )
 }
 }
-
+SchoolList.propTypes = {
+  school: PropTypes.array
+}
 export default SchoolList;
