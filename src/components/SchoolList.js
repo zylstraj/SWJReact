@@ -1,15 +1,14 @@
 import React from 'react';
 import {Switch, Route, Link} from 'react-router-dom';
 import styles from './SchoolList.css';
+import PropTypes from 'prop-types';
 
 class SchoolList extends React.Component {
   constructor(props){
     super(props);
-    console.log(props);
 
 }
 create2List(props) {
-  console.log(this.props);
   return this.props.school.map((school) => {
     return(
       <div key={school.title}
@@ -27,12 +26,14 @@ create2List(props) {
   return (
     <div className={styles.listHeader}>
       <img src="./BigTen.png" alt="Big Ten" className={styles.imgHeader}/>
-      <div className={styles.listHeader}>
+      <div>
         {this.create2List()}
       </div>
     </div>
   )
 }
 }
-
+SchoolList.propTypes = {
+  school: PropTypes.array
+}
 export default SchoolList;

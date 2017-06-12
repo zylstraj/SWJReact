@@ -1,21 +1,23 @@
-.imageSchool {
-  height: 200px;
-  width: 200px;
-}
+/* Div container for entire block - of mapped array Big Ten Schools */
 .listHeader {
   text-align: center;
 }
-/* Header */
+/* Big Ten Photo Header */
 .imgHeader {
   display: block;
   margin: 0 auto;
   height: 250px;
-  width
-  : 250px;
+  width: 250px;
+}
+/* Sizing for Photo within each specific School Div */
+.imageSchool {
+  height: 200px;
+  width: 200px;
 }
 .imageSchool:hover {
   opacity: .5;
 }
+/* Styling and colors for each particular school */
 div[data-title] {
   font-family: 'Bubbler One', sans-serif;
 }
@@ -82,7 +84,10 @@ div[data-title="indiana"], div[data-title="indiana"] a, div[data-title="indiana"
   color: #990000;
   /*background-color: #EEEDEB;*/
 }
+
+/* Responsive for Tablet */
 @media (min-width: 550px) {
+  /* Each specific school <div> Layout: Floats */
 .schoolName {
   float: left;
   width: 48%;
@@ -90,7 +95,9 @@ div[data-title="indiana"], div[data-title="indiana"] a, div[data-title="indiana"
 }
 }
 
+/* Responsive for Desktop */
 @media (min-width: 961px) {
+  /* Each specific school <div> Layout: Floats */
   .schoolName {
     width: 33%;
     float: left;
